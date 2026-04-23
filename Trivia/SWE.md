@@ -208,148 +208,129 @@ The client responds: “Got it.”
 # What is NAT?
 - NAT stands for Network Address Translation. It lets multiple devices on a private local network share one public IP address by translating internal addresses to the external one.
 
-# What is the difference between a router and a switch?
-
-
-# What is the difference between symmetric and asymmetric encryption?
-
-
-# What is a certificate authority?
-
-
-# What is the difference between authentication and authorization?
-
-
-# What is a replay attack?
-
-
-# What is a man-in-the-middle attack?
-
-
-# What is an idempotent API?
-
-
 # What does REST mean in practice?
-
+Using HTTPS methods and URLS to do actions like, get, post, patch, delete, update
 
 # What is the CAP theorem?
-
+- During a network parition, its choosing between consistency and availability
 
 # What is undefined behavior in C or C++?
-
+- Undefined behavior is code where C or C++ gives no guaranteed outcome, meaning the program might work, crash, or do anything else.
+- reading past an array bound
+- dereferencing an invalid pointer
 
 # What is the difference between compiled and interpreted languages?
+- The whole language must be compiled before its run like C++
+- Each line is interprated to machine code line by line during run time like python 
 
 
 # What is the difference between static and dynamic linking?
+- Copies the library code into its executable and run time
+- cpies the library code at run time
 
 
 # What is name mangling in C++?
+- Name mangling is when the compiler changes function and symbol names internally to encode extra info like:
 
+- parameter types
+- namespaces
+- class membership
+
+- This is how C++ supports things like function overloading.
 
 # What is RAII?
+- RAII stands for Resource Acquisition Is Initialization.
 
+- It means you tie resource lifetime to object lifetime:
+
+- resource acquired in constructor
+- resource released in destructor
 
 # What is a memory leak?
+- A memory leak happens when a program allocates memory and then fails to free it after it is no longer needed.
 
 
 # What is a dangling pointer?
+A pointer that is deleted but the memory address stil exists. Not destroyed properly  
 
 
 # What is the difference between shallow copy and deep copy?
+- Shallow copy copies the values as they are, so if an object contains a pointer, the pointer address gets copied too.
+- Deep copy copies the actual underlying data into new memory, so the new object has its own separate copy.
 
 
 # What is move semantics in C++?
-
+- Move semantics in C++ means transferring ownership of resources from one object to another without making a full copy.
 
 # What is the Rule of Three, Five, or Zero?
-
+- If a class manages resources, you likely need to define destructor, copy constructor, copy assignment (Rule of 3).
+- With move semantics: also move constructor, move assignment (Rule of 5).
+- Best practice: design so you need none (Rule of 0), rely on RAII types.
 
 # What is a vtable?
-
+- A lookup table used for runtime polymorphism.
 
 # What is the difference between compile-time polymorphism and runtime polymorphism?
-
+- Compile-time: resolved at compile time (function overloading, templates).
+- Runtime: resolved via vtable at runtime (virtual functions).
 
 # What is const correctness?
-
-
-# What is the difference between signed and unsigned integer overflow in C++?
-
-
-# What is endianness?
-
-
-# What is alignment, and why does it matter?
+- Using const to guarantee something won’t be modified.
 
 
 # What is a segmentation fault?
-
-
-# What is UB from reading uninitialized memory?
-
+- Accessing invalid memory (null, freed, out of bounds).
 
 # What is the difference between new/delete and malloc/free?
-
+- new/delete: C++, calls constructors/destructors.
+- malloc/free: C, raw memory only.
 
 # What problem do smart pointers solve?
-
-
-# What is a transaction in a database?
-
-
-# What is ACID?
-
-
-# What is the difference between serializable and read committed isolation?
-
+- Solve memory management issues.
+- Prevent leaks and dangling pointers via RAII.
 
 # What is an index and when can it hurt performance?
-
+- Data structure (often B-tree) to speed up queries.
+- Hurts performance on writes (needs updating).
 
 # What is normalization?
-
+- Structuring DB to remove redundancy.
 
 # What is denormalization?
-
+- Intentionally adding redundancy.
 
 # What is the N+1 query problem?
-
+- One query for parent + N queries for children.
 
 # What is eventual consistency?
-
-
-# What is replication?
-
+- System becomes consistent over time.
 
 # What is sharding?
-
+- Splitting data across machines.
 
 # What is the difference between vertical and horizontal scaling?
+- Vertical adding more compute
+- horizontal sclading is adding more machines
 
 
 # What is load balancing?
-
+- Load balancing is distributing incoming requests across multiple servers so no single server is overloaded and the system stays fast and available.
 
 # What is a message queue?
-
+- Async communication between services.
 
 # What is backpressure in distributed systems?
-
+- System slowing input when overwhelmed.
 
 # What is an idempotency key?
+- Ensures repeated requests produce same result.
 
-
-# What is a circuit breaker in service design?
-
+- Stops calls to failing service.
 
 # What is observability?
-
+- Ability to understand system state via outputs.
 
 # What is the difference between logs, metrics, and traces?
-
-
-# What makes a system fault tolerant?
-
-
-# What is the difference between availability and reliability?
+- Logs: detailed events.
+- Metrics: numeric aggregates (CPU, latency).
+- Traces: request flow across services.
