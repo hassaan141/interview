@@ -1,0 +1,4 @@
+interface:
+  display_name: "Neuralink Behavioral"
+  short_description: "High-signal Neuralink interview answers"
+  default_prompt: "Use this skill to answer or refine Neuralink robotics software behavioral interview questions with concise, metric-backed, first-principles responses."
