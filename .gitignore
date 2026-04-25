@@ -1,28 +1,6 @@
-
-# Python environments
+# Python virtual environments
 .venv/
-venv/
-env/
-
-# Python cache
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-
-# Python environments
-.venv/
-Pytorch/.venv/
-venv/
-env/
-
-# Python cache
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-
-# Python environments
-.venv/
-Pytorch/.venv/
+**/.venv/
 venv/
 env/
 
