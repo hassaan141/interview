@@ -1,0 +1,37 @@
+[2.519s] Invoking command in '/home/hassan/ros-tuts/patrol_ws/build/tb3_sim': PYTHONPATH=/home/hassan/ros-tuts/patrol_ws/build/tb3_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hassan/ros-tuts/patrol_ws/install/tb3_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/build
+[3.403s] running develop
+[3.404s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.404s]   warnings.warn(
+[3.918s] Removing /home/hassan/ros-tuts/patrol_ws/install/tb3_sim/lib/python3.10/site-packages/tb3-sim.egg-link (link to .)
+[3.987s] Invoked command in '/home/hassan/ros-tuts/patrol_ws/build/tb3_sim' returned '0': PYTHONPATH=/home/hassan/ros-tuts/patrol_ws/build/tb3_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hassan/ros-tuts/patrol_ws/install/tb3_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/build
+[3.991s] Invoking command in '/home/hassan/ros-tuts/patrol_ws/src/tb3_sim': PYTHONPATH=/home/hassan/ros-tuts/patrol_ws/build/tb3_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hassan/ros-tuts/patrol_ws/install/tb3_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb3_sim build --build-base /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/build install --record /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/install.log --single-version-externally-managed install_data --force
+[4.660s] running egg_info
+[4.664s] writing ../../build/tb3_sim/tb3_sim.egg-info/PKG-INFO
+[4.665s] writing dependency_links to ../../build/tb3_sim/tb3_sim.egg-info/dependency_links.txt
+[4.665s] writing entry points to ../../build/tb3_sim/tb3_sim.egg-info/entry_points.txt
+[4.666s] writing requirements to ../../build/tb3_sim/tb3_sim.egg-info/requires.txt
+[4.669s] writing top-level names to ../../build/tb3_sim/tb3_sim.egg-info/top_level.txt
+[4.672s] reading manifest file '../../build/tb3_sim/tb3_sim.egg-info/SOURCES.txt'
+[4.673s] writing manifest file '../../build/tb3_sim/tb3_sim.egg-info/SOURCES.txt'
+[4.673s] running build
+[4.676s] running build_py
+[4.676s] creating /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/build
+[4.677s] creating /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/build/lib
+[4.678s] creating /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/build/lib/tb3_sim
+[4.678s] copying tb3_sim/__init__.py -> /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/build/lib/tb3_sim
+[4.679s] copying tb3_sim/set_init_amcl.py -> /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/build/lib/tb3_sim
+[4.679s] running install
+[4.680s] running install_lib
+[4.685s] creating /home/hassan/ros-tuts/patrol_ws/install/tb3_sim/lib/python3.10/site-packages/tb3_sim
+[4.685s] copying /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/build/lib/tb3_sim/__init__.py -> /home/hassan/ros-tuts/patrol_ws/install/tb3_sim/lib/python3.10/site-packages/tb3_sim
+[4.685s] copying /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/build/lib/tb3_sim/set_init_amcl.py -> /home/hassan/ros-tuts/patrol_ws/install/tb3_sim/lib/python3.10/site-packages/tb3_sim
+[4.686s] byte-compiling /home/hassan/ros-tuts/patrol_ws/install/tb3_sim/lib/python3.10/site-packages/tb3_sim/__init__.py to __init__.cpython-310.pyc
+[4.688s] byte-compiling /home/hassan/ros-tuts/patrol_ws/install/tb3_sim/lib/python3.10/site-packages/tb3_sim/set_init_amcl.py to set_init_amcl.cpython-310.pyc
+[4.688s] running install_data
+[4.689s] copying resource/tb3_sim -> /home/hassan/ros-tuts/patrol_ws/install/tb3_sim/share/ament_index/resource_index/packages
+[4.694s] copying package.xml -> /home/hassan/ros-tuts/patrol_ws/install/tb3_sim/share/tb3_sim
+[4.694s] running install_egg_info
+[4.695s] Copying ../../build/tb3_sim/tb3_sim.egg-info to /home/hassan/ros-tuts/patrol_ws/install/tb3_sim/lib/python3.10/site-packages/tb3_sim-0.0.0-py3.10.egg-info
+[4.695s] running install_scripts
+[4.749s] writing list of installed files to '/home/hassan/ros-tuts/patrol_ws/build/tb3_sim/install.log'
+[5.412s] Invoked command in '/home/hassan/ros-tuts/patrol_ws/src/tb3_sim' returned '0': PYTHONPATH=/home/hassan/ros-tuts/patrol_ws/build/tb3_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hassan/ros-tuts/patrol_ws/install/tb3_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb3_sim build --build-base /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/build install --record /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/install.log --single-version-externally-managed install_data --force

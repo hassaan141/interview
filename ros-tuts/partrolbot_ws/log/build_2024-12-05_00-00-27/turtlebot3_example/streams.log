@@ -1,0 +1,29 @@
+[8.754s] Invoking command in '/home/hassan/ros-tuts/partrolbot_ws/build/turtlebot3_example': CMAKE_PREFIX_PATH=/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_msgs:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_simulations:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_bringup:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_node:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_navigation2:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_fake_node:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_gazebo:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_description:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_cartographer:/home/hassan/ros-tuts/partrolbot_ws/install/hls_lfcd_lds_driver:/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_examples:/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces:/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk:/home/hassan/rosbot_ws/install/ros_bot PYTHONPATH=/home/hassan/ros-tuts/partrolbot_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/hassan/ros-tuts/partrolbot_ws/build/turtlebot3_example/build --no-deps symlink_data
+[9.550s] running develop
+[9.554s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.554s]   warnings.warn(
+[1079.907s] running egg_info
+[1081.864s] creating turtlebot3_example.egg-info
+[1083.348s] writing turtlebot3_example.egg-info/PKG-INFO
+[1085.869s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[1088.374s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[1090.252s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[1099.803s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[1105.692s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1113.217s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1124.248s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1128.166s] running build_ext
+[1131.491s] Creating /home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[1137.571s] Installing turtlebot3_obstacle_detection script to /home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1171.323s] Installing turtlebot3_patrol_client script to /home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1190.939s] Installing turtlebot3_patrol_server script to /home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1302.166s] Installing turtlebot3_position_control script to /home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1358.152s] 
+[1474.256s] Installed /home/hassan/ros-tuts/partrolbot_ws/build/turtlebot3_example
+[1520.551s] running symlink_data
+[1590.937s] creating /home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example/share/ament_index
+[1873.825s] creating /home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example/share/ament_index/resource_index
+[2249.689s] creating /home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[2387.191s] symbolically linking /home/hassan/ros-tuts/partrolbot_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[2387.195s] symbolically linking /home/hassan/ros-tuts/partrolbot_ws/build/turtlebot3_example/package.xml -> /home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example/share/turtlebot3_example
+[2387.197s] Invoked command in '/home/hassan/ros-tuts/partrolbot_ws/build/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_msgs:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_simulations:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_bringup:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_node:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_navigation2:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_fake_node:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_gazebo:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_description:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_cartographer:/home/hassan/ros-tuts/partrolbot_ws/install/hls_lfcd_lds_driver:/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_examples:/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces:/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk:/home/hassan/rosbot_ws/install/ros_bot PYTHONPATH=/home/hassan/ros-tuts/partrolbot_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/hassan/ros-tuts/partrolbot_ws/build/turtlebot3_example/build --no-deps symlink_data

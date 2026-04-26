@@ -1,0 +1,3 @@
+[console_scripts]
+addition_client = add_integers.client_node:main
+addition_service = add_integers.service_node:main

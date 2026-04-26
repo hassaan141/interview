@@ -1,0 +1,229 @@
+[0.027s] Invoking command in '/home/hassan/ros-tuts/partrolbot_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_teleop:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example:/home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim:/opt/ros/humble /usr/bin/cmake /home/hassan/ros-tuts/partrolbot_ws/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces
+[0.149s] -- The C compiler identification is GNU 11.4.0
+[0.276s] -- The CXX compiler identification is GNU 11.4.0
+[0.284s] -- Detecting C compiler ABI info
+[0.428s] -- Detecting C compiler ABI info - done
+[0.449s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.449s] -- Detecting C compile features
+[0.454s] -- Detecting C compile features - done
+[0.457s] -- Detecting CXX compiler ABI info
+[0.585s] -- Detecting CXX compiler ABI info - done
+[0.598s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.599s] -- Detecting CXX compile features
+[0.599s] -- Detecting CXX compile features - done
+[0.601s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.875s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.973s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.007s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.055s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.069s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.093s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.118s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.179s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.975s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.537s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.695s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.722s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.724s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.768s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.768s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.768s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.768s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.799s] -- Found PythonExtra: .so  
+[2.915s] -- Configuring done
+[2.951s] -- Generating done
+[2.957s] -- Build files have been written to: /home/hassan/ros-tuts/partrolbot_ws/build/dynamixel_sdk_custom_interfaces
+[2.976s] Invoked command in '/home/hassan/ros-tuts/partrolbot_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_teleop:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example:/home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim:/opt/ros/humble /usr/bin/cmake /home/hassan/ros-tuts/partrolbot_ws/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces
+[2.977s] Invoking command in '/home/hassan/ros-tuts/partrolbot_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_teleop:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example:/home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim:/opt/ros/humble /usr/bin/cmake --build /home/hassan/ros-tuts/partrolbot_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[3.038s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.058s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.067s] [  5%] Built target ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
+[3.385s] running egg_info
+[3.385s] creating dynamixel_sdk_custom_interfaces.egg-info
+[3.385s] writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+[3.385s] writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+[3.385s] writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+[3.386s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[3.388s] reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[3.388s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[3.438s] [  5%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg
+[3.762s] [  7%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c.o[0m
+[3.762s] [ 10%] Built target dynamixel_sdk_custom_interfaces__cpp
+[3.764s] [ 10%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c.o[0m
+[3.785s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.788s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.809s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.918s] [ 20%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so[0m
+[4.009s] [ 20%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[4.047s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.047s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.049s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.353s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps/set_position__type_support.cpp.o[0m
+[4.357s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps/get_position__type_support.cpp.o[0m
+[4.476s] [ 35%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[4.483s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[4.511s] [ 41%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp.o[0m
+[4.847s] [ 43%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[4.903s] [ 46%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c.o[0m
+[4.920s] [ 48%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support_c.cpp.o[0m
+[4.938s] [ 51%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[4.962s] [ 53%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support_c.cpp.o[0m
+[4.996s] [ 56%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c.o[0m
+[5.011s] [ 58%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so[0m
+[5.096s] [ 61%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.107s] [ 64%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so[0m
+[5.109s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[5.140s] [ 66%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp.o[0m
+[5.167s] [ 66%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[5.206s] [ 66%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[5.318s] [ 69%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.574s] [ 69%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.762s] [ 71%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.804s] [ 74%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.859s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[5.985s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[6.053s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[6.109s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.098s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[8.157s] [ 79%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c.o[0m
+[8.160s] [ 82%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c.o[0m
+[8.628s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so[0m
+[8.778s] [ 84%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[8.831s] [ 87%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.853s] [ 92%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[8.853s] [ 92%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.165s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.166s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.231s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.297s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[9.306s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[9.385s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[9.421s] Invoked command in '/home/hassan/ros-tuts/partrolbot_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_teleop:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example:/home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim:/opt/ros/humble /usr/bin/cmake --build /home/hassan/ros-tuts/partrolbot_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[9.753s] Invoking command in '/home/hassan/ros-tuts/partrolbot_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_teleop:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example:/home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim:/opt/ros/humble /usr/bin/cmake --install /home/hassan/ros-tuts/partrolbot_ws/build/dynamixel_sdk_custom_interfaces
+[9.777s] -- Install configuration: ""
+[9.778s] -- Execute custom install script
+[9.778s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces
+[9.793s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h
+[9.810s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h
+[9.821s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.h
+[9.837s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.851s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.h
+[9.861s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.h
+[9.877s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h
+[9.901s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.h
+[9.915s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.h
+[9.926s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.sh
+[9.943s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.dsv
+[9.967s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[9.986s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.017s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[10.045s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp
+[10.064s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp
+[10.083s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp
+[10.107s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.hpp
+[10.127s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp
+[10.163s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp
+[10.184s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp
+[10.209s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.hpp
+[10.230s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[10.251s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.276s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[10.291s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h
+[10.313s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.332s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[10.352s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[10.370s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[10.394s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.sh
+[10.415s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.dsv
+[10.445s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/PKG-INFO
+[10.484s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/SOURCES.txt
+[10.514s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/dependency_links.txt
+[10.536s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/top_level.txt
+[10.560s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/__init__.py
+[10.579s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[10.603s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.623s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[10.641s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.668s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.687s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.700s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so
+[10.711s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py
+[10.733s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py
+[10.747s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c
+[10.759s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py
+[10.772s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py
+[10.785s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c
+[10.802s] -- Up-to-date symlink: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.803s] -- Up-to-date symlink: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.803s] -- Up-to-date symlink: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.805s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl
+[10.817s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl
+[10.828s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+[10.839s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv
+[10.857s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Request.msg
+[10.870s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Response.msg
+[10.904s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces
+[10.917s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces
+[10.929s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.sh
+[10.949s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.dsv
+[10.960s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.sh
+[10.974s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.dsv
+[10.982s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.bash
+[10.993s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.sh
+[11.004s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.zsh
+[11.016s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.dsv
+[11.027s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv
+[11.038s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/packages/dynamixel_sdk_custom_interfaces
+[11.051s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.063s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.094s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.100s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.112s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.123s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.134s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.145s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig.cmake
+[11.155s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig-version.cmake
+[11.170s] -- Symlinking: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.xml
+[11.184s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so
+[11.184s] -- Set runtime path of "/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so" to ""
+[11.184s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.184s] -- Set runtime path of "/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[11.184s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.184s] -- Set runtime path of "/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.184s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so
+[11.184s] -- Set runtime path of "/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[11.184s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so
+[11.184s] -- Set runtime path of "/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so" to ""
+[11.184s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.185s] -- Set runtime path of "/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[11.185s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so
+[11.185s] -- Set runtime path of "/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.259s] Listing '/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces'...
+[11.259s] Compiling '/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/__init__.py'...
+[11.259s] Listing '/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg'...
+[11.259s] Compiling '/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py'...
+[11.260s] Compiling '/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py'...
+[11.260s] Listing '/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv'...
+[11.260s] Compiling '/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py'...
+[11.260s] Compiling '/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py'...
+[11.264s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so
+[11.264s] -- Set runtime path of "/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so" to ""
+[11.264s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport.cmake
+[11.265s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.265s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.265s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.266s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cppExport.cmake
+[11.266s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.266s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.267s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.267s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.267s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport.cmake
+[11.268s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.268s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.268s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.269s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[11.269s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.270s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport.cmake
+[11.270s] -- Installing: /home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.277s] Invoked command in '/home/hassan/ros-tuts/partrolbot_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_teleop:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example:/home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim:/opt/ros/humble /usr/bin/cmake --install /home/hassan/ros-tuts/partrolbot_ws/build/dynamixel_sdk_custom_interfaces

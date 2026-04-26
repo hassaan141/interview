@@ -1,0 +1,362 @@
+[0.000000] (-) TimerEvent: {}
+[0.000206] (talker_listener) JobQueued: {'identifier': 'talker_listener', 'dependencies': OrderedDict({'talker_listener': '/home/hassaan/ros2_ws/install/talker_listener'})}
+[0.000538] (talker_listener) JobStarted: {'identifier': 'talker_listener'}
+[0.099793] (-) TimerEvent: {}
+[0.169108] (talker_listener) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/hassaan/ros2_ws/src/talker_listener', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hassaan', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hassaan', 'OLDPWD': '/home/hassaan', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hassaan/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hassaan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hassaan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hassaan-Aspire-A515-56:@/tmp/.ICE-unix/2244,unix/hassaan-Aspire-A515-56:/tmp/.ICE-unix/2244', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3f995d09_0505_4098_bdf1_4435e726351d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BVEVW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.170', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hassaan/ros2_ws/install/talker_listener:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hassaan/ros2_ws/build/talker_listener', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hassaan/ros2_ws/install/talker_listener/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'PYTHONDONTWRITEBYTECODE': '1', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/hassaan/ros2_ws/build/talker_listener/pytest.xml --junit-prefix=talker_listener -o cache_dir=/home/hassaan/ros2_ws/build/talker_listener/.pytest_cache'}, 'shell': False}
+[0.199878] (-) TimerEvent: {}
+[0.300101] (-) TimerEvent: {}
+[0.400299] (-) TimerEvent: {}
+[0.440868] (talker_listener) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.441147] (talker_listener) StdoutLine: {'line': b'platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0\n'}
+[0.444464] (talker_listener) StdoutLine: {'line': b'cachedir: /home/hassaan/ros2_ws/build/talker_listener/.pytest_cache\n'}
+[0.444576] (talker_listener) StdoutLine: {'line': b'rootdir: /home/hassaan/ros2_ws/src/talker_listener\n'}
+[0.444636] (talker_listener) StdoutLine: {'line': b'plugins: launch-testing-ros-0.26.5, ament-xmllint-0.17.1, launch-testing-3.4.2, ament-flake8-0.17.1, ament-copyright-0.17.1, ament-lint-0.17.1, ament-pep257-0.17.1, cov-4.1.0, colcon-core-0.18.1\n'}
+[0.500403] (-) TimerEvent: {}
+[0.514963] (talker_listener) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[0.515130] (talker_listener) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[0.515423] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.520532] (talker_listener) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[0.600492] (-) TimerEvent: {}
+[0.632202] (talker_listener) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[0.646530] (talker_listener) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[0.646717] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.646823] (talker_listener) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[0.646912] (talker_listener) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[0.647000] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[0.677449] (talker_listener) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[0.677693] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 59 code style errors / warnings:\x1b[0m\n'}
+[0.677773] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/talker_listener.launch.py:4:9: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.677860] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/talker_listener.launch.py:6:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[0.677945] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/talker_listener.launch.py:8:16: E251 unexpected spaces around keyword / parameter equals\x1b[0m\n'}
+[0.678044] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/talker_listener.launch.py:8:18: E251 unexpected spaces around keyword / parameter equals\x1b[0m\n'}
+[0.678131] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/talker_listener.launch.py:8:19: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.678220] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/talker_listener.launch.py:9:20: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.678274] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/talker_listener.launch.py:10:14: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.678324] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/talker_listener.launch.py:12:13: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.678373] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/talker_listener.launch.py:17:17: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.678422] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/talker_listener.launch.py:18:20: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.678473] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/talker_listener.launch.py:19:14: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.678525] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/talker_listener.launch.py:21:13: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.678575] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./launch/talker_listener.launch.py:28:7: W292 no newline at end of file\x1b[0m\n'}
+[0.678625] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./setup.py:2:1: I100 Import statements are in the wrong order. 'import os' should be before 'from setuptools import find_packages, setup' and in a different group.\x1b[0m\n"}
+[0.678675] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./setup.py:2:1: I201 Missing newline between import groups. 'import os' is identified as Stdlib and 'from setuptools import find_packages, setup' is identified as Third Party.\x1b[0m\n"}
+[0.678729] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./setup.py:3:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'\x1b[0m\n"}
+[0.678892] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:2:1: E265 block comment should start with '# '\x1b[0m\n"}
+[0.679094] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:6:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[0.679152] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:8:26: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.679205] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:10:32: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.679257] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:10:47: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.679307] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:11:41: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.679358] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:13:9: E265 block comment should start with '# '\x1b[0m\n"}
+[0.679409] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:15:20: W291 trailing whitespace\x1b[0m\n'}
+[0.679477] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:16:24: W291 trailing whitespace\x1b[0m\n'}
+[0.679699] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:17:36: W291 trailing whitespace\x1b[0m\n'}
+[0.679878] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:20:5: E301 expected 1 blank line, found 0\x1b[0m\n'}
+[0.679937] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:21:32: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.679986] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:27:5: E265 block comment should start with '# '\x1b[0m\n"}
+[0.680035] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:29:5: E265 block comment should start with '# '\x1b[0m\n"}
+[0.680084] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:32:5: E265 block comment should start with '# '\x1b[0m\n"}
+[0.680132] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:36:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[0.680181] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:36:16: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.680228] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/listener_node.py:37:11: W292 no newline at end of file\x1b[0m\n'}
+[0.680276] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:2:1: E265 block comment should start with '# '\x1b[0m\n"}
+[0.680325] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:8:1: E265 block comment should start with '# '\x1b[0m\n"}
+[0.680374] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:10:1: E265 block comment should start with '# '\x1b[0m\n"}
+[0.680422] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:10:100: E501 line too long (121 > 99 characters)\x1b[0m\n'}
+[0.680469] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:11:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[0.680517] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:12:5: E265 block comment should start with '# '\x1b[0m\n"}
+[0.680566] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:14:9: E265 block comment should start with '# '\x1b[0m\n"}
+[0.680612] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:15:26: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.680660] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:17:9: E265 block comment should start with '# '\x1b[0m\n"}
+[0.680711] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:18:32: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.680764] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:18:47: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.680820] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:19:9: E265 block comment should start with '# '\x1b[0m\n"}
+[0.680870] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:20:41: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.680918] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:22:9: E265 block comment should start with '# '\x1b[0m\n"}
+[0.680966] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:25:9: E265 block comment should start with '# '\x1b[0m\n"}
+[0.681014] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:29:5: E265 block comment should start with '# '\x1b[0m\n"}
+[0.681065] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:32:17: E225 missing whitespace around operator\x1b[0m\n'}
+[0.681112] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:32:18: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.681161] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:34:19: E225 missing whitespace around operator\x1b[0m\n'}
+[0.681210] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:35:32: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.681257] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:41:5: E265 block comment should start with '# '\x1b[0m\n"}
+[0.681304] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:43:5: E265 block comment should start with '# '\x1b[0m\n"}
+[0.681351] (talker_listener) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:46:5: E265 block comment should start with '# '\x1b[0m\n"}
+[0.681398] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:51:12: E225 missing whitespace around operator\x1b[0m\n'}
+[0.681445] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./talker_listener/talker_node.py:52:11: W292 no newline at end of file\x1b[0m\n'}
+[0.681491] (talker_listener) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[0.681538] (talker_listener) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[0.681586] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.681635] (talker_listener) StdoutLine: {'line': b'./launch/talker_listener.launch.py:4:9: Q000 Double quotes found but single quotes preferred\n'}
+[0.681682] (talker_listener) StdoutLine: {'line': b'TOPIC = "chatter"\n'}
+[0.681729] (talker_listener) StdoutLine: {'line': b'        ^\n'}
+[0.681788] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.681838] (talker_listener) StdoutLine: {'line': b'./launch/talker_listener.launch.py:6:1: E302 expected 2 blank lines, found 1\n'}
+[0.681891] (talker_listener) StdoutLine: {'line': b'def generate_launch_description():\n'}
+[0.681939] (talker_listener) StdoutLine: {'line': b'^\n'}
+[0.681987] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.682036] (talker_listener) StdoutLine: {'line': b'./launch/talker_listener.launch.py:8:16: E251 unexpected spaces around keyword / parameter equals\n'}
+[0.682087] (talker_listener) StdoutLine: {'line': b'        package = "talker_listener",\n'}
+[0.682136] (talker_listener) StdoutLine: {'line': b'               ^\n'}
+[0.682186] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.682235] (talker_listener) StdoutLine: {'line': b'./launch/talker_listener.launch.py:8:18: E251 unexpected spaces around keyword / parameter equals\n'}
+[0.682292] (talker_listener) StdoutLine: {'line': b'        package = "talker_listener",\n'}
+[0.682339] (talker_listener) StdoutLine: {'line': b'                 ^\n'}
+[0.682388] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.682436] (talker_listener) StdoutLine: {'line': b'./launch/talker_listener.launch.py:8:19: Q000 Double quotes found but single quotes preferred\n'}
+[0.682484] (talker_listener) StdoutLine: {'line': b'        package = "talker_listener",\n'}
+[0.682532] (talker_listener) StdoutLine: {'line': b'                  ^\n'}
+[0.682580] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.682628] (talker_listener) StdoutLine: {'line': b'./launch/talker_listener.launch.py:9:20: Q000 Double quotes found but single quotes preferred\n'}
+[0.682676] (talker_listener) StdoutLine: {'line': b'        executable="talkerNode",\n'}
+[0.682725] (talker_listener) StdoutLine: {'line': b'                   ^\n'}
+[0.682786] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.682836] (talker_listener) StdoutLine: {'line': b'./launch/talker_listener.launch.py:10:14: Q000 Double quotes found but single quotes preferred\n'}
+[0.682886] (talker_listener) StdoutLine: {'line': b'        name="talker_node",\n'}
+[0.682932] (talker_listener) StdoutLine: {'line': b'             ^\n'}
+[0.682977] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.683024] (talker_listener) StdoutLine: {'line': b'./launch/talker_listener.launch.py:12:13: Q000 Double quotes found but single quotes preferred\n'}
+[0.683070] (talker_listener) StdoutLine: {'line': b'            "topic": TOPIC\n'}
+[0.683117] (talker_listener) StdoutLine: {'line': b'            ^\n'}
+[0.683165] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.683213] (talker_listener) StdoutLine: {'line': b'./launch/talker_listener.launch.py:17:17: Q000 Double quotes found but single quotes preferred\n'}
+[0.683260] (talker_listener) StdoutLine: {'line': b'        package="talker_listener",\n'}
+[0.683308] (talker_listener) StdoutLine: {'line': b'                ^\n'}
+[0.683353] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.683399] (talker_listener) StdoutLine: {'line': b'./launch/talker_listener.launch.py:18:20: Q000 Double quotes found but single quotes preferred\n'}
+[0.683446] (talker_listener) StdoutLine: {'line': b'        executable="listenerNode",\n'}
+[0.683492] (talker_listener) StdoutLine: {'line': b'                   ^\n'}
+[0.683538] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.683584] (talker_listener) StdoutLine: {'line': b'./launch/talker_listener.launch.py:19:14: Q000 Double quotes found but single quotes preferred\n'}
+[0.683631] (talker_listener) StdoutLine: {'line': b'        name="listener_node",\n'}
+[0.683676] (talker_listener) StdoutLine: {'line': b'             ^\n'}
+[0.683722] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.683780] (talker_listener) StdoutLine: {'line': b'./launch/talker_listener.launch.py:21:13: Q000 Double quotes found but single quotes preferred\n'}
+[0.683830] (talker_listener) StdoutLine: {'line': b'            "topic": TOPIC\n'}
+[0.683875] (talker_listener) StdoutLine: {'line': b'            ^\n'}
+[0.683921] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.683968] (talker_listener) StdoutLine: {'line': b'./launch/talker_listener.launch.py:28:7: W292 no newline at end of file\n'}
+[0.684014] (talker_listener) StdoutLine: {'line': b'    ])      ^\n'}
+[0.684061] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.684107] (talker_listener) StdoutLine: {'line': b"./setup.py:2:1: I100 Import statements are in the wrong order. 'import os' should be before 'from setuptools import find_packages, setup' and in a different group.\n"}
+[0.684154] (talker_listener) StdoutLine: {'line': b'import os\n'}
+[0.684200] (talker_listener) StdoutLine: {'line': b'^\n'}
+[0.684246] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.684292] (talker_listener) StdoutLine: {'line': b"./setup.py:2:1: I201 Missing newline between import groups. 'import os' is identified as Stdlib and 'from setuptools import find_packages, setup' is identified as Third Party.\n"}
+[0.684339] (talker_listener) StdoutLine: {'line': b'import os\n'}
+[0.684385] (talker_listener) StdoutLine: {'line': b'^\n'}
+[0.684430] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.684475] (talker_listener) StdoutLine: {'line': b"./setup.py:3:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'\n"}
+[0.684541] (talker_listener) StdoutLine: {'line': b'from glob import glob\n'}
+[0.684612] (talker_listener) StdoutLine: {'line': b'^\n'}
+[0.684661] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.684707] (talker_listener) StdoutLine: {'line': b"./talker_listener/listener_node.py:2:1: E265 block comment should start with '# '\n"}
+[0.684760] (talker_listener) StdoutLine: {'line': b'#Provides functions to create a\n'}
+[0.684811] (talker_listener) StdoutLine: {'line': b'^\n'}
+[0.684857] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.684903] (talker_listener) StdoutLine: {'line': b'./talker_listener/listener_node.py:6:1: E302 expected 2 blank lines, found 1\n'}
+[0.684950] (talker_listener) StdoutLine: {'line': b'class ListenerNode(Node):\n'}
+[0.685002] (talker_listener) StdoutLine: {'line': b'^\n'}
+[0.685048] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.685094] (talker_listener) StdoutLine: {'line': b'./talker_listener/listener_node.py:8:26: Q000 Double quotes found but single quotes preferred\n'}
+[0.685141] (talker_listener) StdoutLine: {'line': b'        super().__init__("listener_node")\n'}
+[0.685190] (talker_listener) StdoutLine: {'line': b'                         ^\n'}
+[0.685236] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.685283] (talker_listener) StdoutLine: {'line': b'./talker_listener/listener_node.py:10:32: Q000 Double quotes found but single quotes preferred\n'}
+[0.685330] (talker_listener) StdoutLine: {'line': b'        self.declare_parameter("topic", value="listener_topic")\n'}
+[0.685375] (talker_listener) StdoutLine: {'line': b'                               ^\n'}
+[0.685426] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.685482] (talker_listener) StdoutLine: {'line': b'./talker_listener/listener_node.py:10:47: Q000 Double quotes found but single quotes preferred\n'}
+[0.685529] (talker_listener) StdoutLine: {'line': b'        self.declare_parameter("topic", value="listener_topic")\n'}
+[0.685576] (talker_listener) StdoutLine: {'line': b'                                              ^\n'}
+[0.685622] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.685668] (talker_listener) StdoutLine: {'line': b'./talker_listener/listener_node.py:11:41: Q000 Double quotes found but single quotes preferred\n'}
+[0.685714] (talker_listener) StdoutLine: {'line': b'        topic_name = self.get_parameter("topic").get_parameter_value().string_value\n'}
+[0.685767] (talker_listener) StdoutLine: {'line': b'                                        ^\n'}
+[0.685817] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.685862] (talker_listener) StdoutLine: {'line': b"./talker_listener/listener_node.py:13:9: E265 block comment should start with '# '\n"}
+[0.685908] (talker_listener) StdoutLine: {'line': b'        #subscribed to the same topic which listens to the callback\n'}
+[0.685953] (talker_listener) StdoutLine: {'line': b'        ^\n'}
+[0.685998] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.686042] (talker_listener) StdoutLine: {'line': b'./talker_listener/listener_node.py:15:20: W291 trailing whitespace\n'}
+[0.686088] (talker_listener) StdoutLine: {'line': b'            String, \n'}
+[0.686134] (talker_listener) StdoutLine: {'line': b'                   ^\n'}
+[0.686180] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.686226] (talker_listener) StdoutLine: {'line': b'./talker_listener/listener_node.py:16:24: W291 trailing whitespace\n'}
+[0.686272] (talker_listener) StdoutLine: {'line': b'            topic_name, \n'}
+[0.686318] (talker_listener) StdoutLine: {'line': b'                       ^\n'}
+[0.686364] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.686409] (talker_listener) StdoutLine: {'line': b'./talker_listener/listener_node.py:17:36: W291 trailing whitespace\n'}
+[0.686454] (talker_listener) StdoutLine: {'line': b'            self.listener_callback, \n'}
+[0.686500] (talker_listener) StdoutLine: {'line': b'                                   ^\n'}
+[0.686546] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.686592] (talker_listener) StdoutLine: {'line': b'./talker_listener/listener_node.py:20:5: E301 expected 1 blank line, found 0\n'}
+[0.686638] (talker_listener) StdoutLine: {'line': b'    def listener_callback(self, msg):\n'}
+[0.686684] (talker_listener) StdoutLine: {'line': b'    ^\n'}
+[0.686729] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.686779] (talker_listener) StdoutLine: {'line': b'./talker_listener/listener_node.py:21:32: Q000 Double quotes found but single quotes preferred\n'}
+[0.686828] (talker_listener) StdoutLine: {'line': b'        self.get_logger().info(f"Received {msg.data}")\n'}
+[0.686875] (talker_listener) StdoutLine: {'line': b'                               ^\n'}
+[0.686921] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.686966] (talker_listener) StdoutLine: {'line': b"./talker_listener/listener_node.py:27:5: E265 block comment should start with '# '\n"}
+[0.687018] (talker_listener) StdoutLine: {'line': b'    #create node\n'}
+[0.687064] (talker_listener) StdoutLine: {'line': b'    ^\n'}
+[0.687110] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.687155] (talker_listener) StdoutLine: {'line': b"./talker_listener/listener_node.py:29:5: E265 block comment should start with '# '\n"}
+[0.687201] (talker_listener) StdoutLine: {'line': b'    #run node\n'}
+[0.687247] (talker_listener) StdoutLine: {'line': b'    ^\n'}
+[0.687292] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.687338] (talker_listener) StdoutLine: {'line': b"./talker_listener/listener_node.py:32:5: E265 block comment should start with '# '\n"}
+[0.687385] (talker_listener) StdoutLine: {'line': b'    #destroy node\n'}
+[0.687430] (talker_listener) StdoutLine: {'line': b'    ^\n'}
+[0.687476] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.687521] (talker_listener) StdoutLine: {'line': b'./talker_listener/listener_node.py:36:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[0.687567] (talker_listener) StdoutLine: {'line': b'if __name__ == "__main__":\n'}
+[0.687618] (talker_listener) StdoutLine: {'line': b'^\n'}
+[0.687664] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.687710] (talker_listener) StdoutLine: {'line': b'./talker_listener/listener_node.py:36:16: Q000 Double quotes found but single quotes preferred\n'}
+[0.687761] (talker_listener) StdoutLine: {'line': b'if __name__ == "__main__":\n'}
+[0.687810] (talker_listener) StdoutLine: {'line': b'               ^\n'}
+[0.687856] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.687901] (talker_listener) StdoutLine: {'line': b'./talker_listener/listener_node.py:37:11: W292 no newline at end of file\n'}
+[0.687947] (talker_listener) StdoutLine: {'line': b'    main()          ^\n'}
+[0.687992] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.688039] (talker_listener) StdoutLine: {'line': b"./talker_listener/talker_node.py:2:1: E265 block comment should start with '# '\n"}
+[0.688085] (talker_listener) StdoutLine: {'line': b'#Provides functions to create a ROS2 node\n'}
+[0.688131] (talker_listener) StdoutLine: {'line': b'^\n'}
+[0.688176] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.688222] (talker_listener) StdoutLine: {'line': b"./talker_listener/talker_node.py:8:1: E265 block comment should start with '# '\n"}
+[0.688268] (talker_listener) StdoutLine: {'line': b'#source /opt/ros/jazzy/setup.bash\n'}
+[0.688323] (talker_listener) StdoutLine: {'line': b'^\n'}
+[0.688389] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.688450] (talker_listener) StdoutLine: {'line': b"./talker_listener/talker_node.py:10:1: E265 block comment should start with '# '\n"}
+[0.688498] (talker_listener) StdoutLine: {'line': b'#Defines a class that inherits from Node, so now it has all the methods and properties (publishing, subscribing, logging)\n'}
+[0.688545] (talker_listener) StdoutLine: {'line': b'^\n'}
+[0.688593] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.688638] (talker_listener) StdoutLine: {'line': b'./talker_listener/talker_node.py:10:100: E501 line too long (121 > 99 characters)\n'}
+[0.688685] (talker_listener) StdoutLine: {'line': b'#Defines a class that inherits from Node, so now it has all the methods and properties (publishing, subscribing, logging)\n'}
+[0.688732] (talker_listener) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[0.688788] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.688835] (talker_listener) StdoutLine: {'line': b'./talker_listener/talker_node.py:11:1: E302 expected 2 blank lines, found 1\n'}
+[0.688882] (talker_listener) StdoutLine: {'line': b'class TalkerNode(Node):\n'}
+[0.688926] (talker_listener) StdoutLine: {'line': b'^\n'}
+[0.688972] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.689019] (talker_listener) StdoutLine: {'line': b"./talker_listener/talker_node.py:12:5: E265 block comment should start with '# '\n"}
+[0.689065] (talker_listener) StdoutLine: {'line': b'    #Constructor\n'}
+[0.689111] (talker_listener) StdoutLine: {'line': b'    ^\n'}
+[0.689163] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.689209] (talker_listener) StdoutLine: {'line': b"./talker_listener/talker_node.py:14:9: E265 block comment should start with '# '\n"}
+[0.689255] (talker_listener) StdoutLine: {'line': b'        #calls the constructor\n'}
+[0.689301] (talker_listener) StdoutLine: {'line': b'        ^\n'}
+[0.689347] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.689393] (talker_listener) StdoutLine: {'line': b'./talker_listener/talker_node.py:15:26: Q000 Double quotes found but single quotes preferred\n'}
+[0.689442] (talker_listener) StdoutLine: {'line': b'        super().__init__("talker_node")\n'}
+[0.689488] (talker_listener) StdoutLine: {'line': b'                         ^\n'}
+[0.689534] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.689580] (talker_listener) StdoutLine: {'line': b"./talker_listener/talker_node.py:17:9: E265 block comment should start with '# '\n"}
+[0.689627] (talker_listener) StdoutLine: {'line': b'        #Since we are passing in the topic as a parameter, we have to pass it in\n'}
+[0.689674] (talker_listener) StdoutLine: {'line': b'        ^\n'}
+[0.689720] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.689772] (talker_listener) StdoutLine: {'line': b'./talker_listener/talker_node.py:18:32: Q000 Double quotes found but single quotes preferred\n'}
+[0.689820] (talker_listener) StdoutLine: {'line': b'        self.declare_parameter("topic", value="talker_topic")\n'}
+[0.689867] (talker_listener) StdoutLine: {'line': b'                               ^\n'}
+[0.689912] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.689959] (talker_listener) StdoutLine: {'line': b'./talker_listener/talker_node.py:18:47: Q000 Double quotes found but single quotes preferred\n'}
+[0.690004] (talker_listener) StdoutLine: {'line': b'        self.declare_parameter("topic", value="talker_topic")\n'}
+[0.690050] (talker_listener) StdoutLine: {'line': b'                                              ^\n'}
+[0.690095] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.690141] (talker_listener) StdoutLine: {'line': b"./talker_listener/talker_node.py:19:9: E265 block comment should start with '# '\n"}
+[0.690187] (talker_listener) StdoutLine: {'line': b'        #Store it in a variable and change it to a string value\n'}
+[0.690233] (talker_listener) StdoutLine: {'line': b'        ^\n'}
+[0.690279] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.690323] (talker_listener) StdoutLine: {'line': b'./talker_listener/talker_node.py:20:41: Q000 Double quotes found but single quotes preferred\n'}
+[0.690369] (talker_listener) StdoutLine: {'line': b'        topic_name = self.get_parameter("topic").get_parameter_value().string_value\n'}
+[0.690416] (talker_listener) StdoutLine: {'line': b'                                        ^\n'}
+[0.690476] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.690522] (talker_listener) StdoutLine: {'line': b"./talker_listener/talker_node.py:22:9: E265 block comment should start with '# '\n"}
+[0.690567] (talker_listener) StdoutLine: {'line': b'        #creates a publisher and pushlished to the topic name topic with a queue of 10\n'}
+[0.690613] (talker_listener) StdoutLine: {'line': b'        ^\n'}
+[0.690658] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.690703] (talker_listener) StdoutLine: {'line': b"./talker_listener/talker_node.py:25:9: E265 block comment should start with '# '\n"}
+[0.690749] (talker_listener) StdoutLine: {'line': b'        #calls a timer which will call the function timer_callback every 0.5 seconds\n'}
+[0.690803] (talker_listener) StdoutLine: {'line': b'        ^\n'}
+[0.690848] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.690894] (talker_listener) StdoutLine: {'line': b"./talker_listener/talker_node.py:29:5: E265 block comment should start with '# '\n"}
+[0.690939] (talker_listener) StdoutLine: {'line': b'    #Puts msg\n'}
+[0.690984] (talker_listener) StdoutLine: {'line': b'    ^\n'}
+[0.691030] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.691075] (talker_listener) StdoutLine: {'line': b'./talker_listener/talker_node.py:32:17: E225 missing whitespace around operator\n'}
+[0.691126] (talker_listener) StdoutLine: {'line': b'        msg.data=f"Hello World {self.count}"\n'}
+[0.691171] (talker_listener) StdoutLine: {'line': b'                ^\n'}
+[0.691217] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.691265] (talker_listener) StdoutLine: {'line': b'./talker_listener/talker_node.py:32:18: Q000 Double quotes found but single quotes preferred\n'}
+[0.691312] (talker_listener) StdoutLine: {'line': b'        msg.data=f"Hello World {self.count}"\n'}
+[0.691358] (talker_listener) StdoutLine: {'line': b'                 ^\n'}
+[0.691405] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.691452] (talker_listener) StdoutLine: {'line': b'./talker_listener/talker_node.py:34:19: E225 missing whitespace around operator\n'}
+[0.691498] (talker_listener) StdoutLine: {'line': b'        self.count+=1\n'}
+[0.691544] (talker_listener) StdoutLine: {'line': b'                  ^\n'}
+[0.691590] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.691636] (talker_listener) StdoutLine: {'line': b'./talker_listener/talker_node.py:35:32: Q000 Double quotes found but single quotes preferred\n'}
+[0.691683] (talker_listener) StdoutLine: {'line': b'        self.get_logger().info(f"Publishing {msg.data}")\n'}
+[0.691729] (talker_listener) StdoutLine: {'line': b'                               ^\n'}
+[0.691781] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.691829] (talker_listener) StdoutLine: {'line': b"./talker_listener/talker_node.py:41:5: E265 block comment should start with '# '\n"}
+[0.691874] (talker_listener) StdoutLine: {'line': b'    #create node\n'}
+[0.691920] (talker_listener) StdoutLine: {'line': b'    ^\n'}
+[0.691967] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.692012] (talker_listener) StdoutLine: {'line': b"./talker_listener/talker_node.py:43:5: E265 block comment should start with '# '\n"}
+[0.692058] (talker_listener) StdoutLine: {'line': b'    #use node\n'}
+[0.692104] (talker_listener) StdoutLine: {'line': b'    ^\n'}
+[0.692149] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.692194] (talker_listener) StdoutLine: {'line': b"./talker_listener/talker_node.py:46:5: E265 block comment should start with '# '\n"}
+[0.692260] (talker_listener) StdoutLine: {'line': b'    #destroy node\n'}
+[0.692320] (talker_listener) StdoutLine: {'line': b'    ^\n'}
+[0.692366] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.692412] (talker_listener) StdoutLine: {'line': b'./talker_listener/talker_node.py:51:12: E225 missing whitespace around operator\n'}
+[0.692458] (talker_listener) StdoutLine: {'line': b"if __name__=='__main__':\n"}
+[0.692503] (talker_listener) StdoutLine: {'line': b'           ^\n'}
+[0.692550] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.692597] (talker_listener) StdoutLine: {'line': b'./talker_listener/talker_node.py:52:11: W292 no newline at end of file\n'}
+[0.692643] (talker_listener) StdoutLine: {'line': b'    main()          ^\n'}
+[0.692690] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.692736] (talker_listener) StdoutLine: {'line': b'3     E225 missing whitespace around operator\n'}
+[0.692792] (talker_listener) StdoutLine: {'line': b'2     E251 unexpected spaces around keyword / parameter equals\n'}
+[0.692845] (talker_listener) StdoutLine: {'line': b"18    E265 block comment should start with '# '\n"}
+[0.692891] (talker_listener) StdoutLine: {'line': b'1     E301 expected 1 blank line, found 0\n'}
+[0.692937] (talker_listener) StdoutLine: {'line': b'3     E302 expected 2 blank lines, found 1\n'}
+[0.692982] (talker_listener) StdoutLine: {'line': b'1     E305 expected 2 blank lines after class or function definition, found 1\n'}
+[0.693027] (talker_listener) StdoutLine: {'line': b'1     E501 line too long (121 > 99 characters)\n'}
+[0.693073] (talker_listener) StdoutLine: {'line': b"2     I100 Import statements are in the wrong order. 'import os' should be before 'from setuptools import find_packages, setup' and in a different group.\n"}
+[0.693120] (talker_listener) StdoutLine: {'line': b"1     I201 Missing newline between import groups. 'import os' is identified as Stdlib and 'from setuptools import find_packages, setup' is identified as Third Party.\n"}
+[0.693171] (talker_listener) StdoutLine: {'line': b'21    Q000 Double quotes found but single quotes preferred\n'}
+[0.693216] (talker_listener) StdoutLine: {'line': b'3     W291 trailing whitespace\n'}
+[0.693262] (talker_listener) StdoutLine: {'line': b'3     W292 no newline at end of file\n'}
+[0.693308] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.693353] (talker_listener) StdoutLine: {'line': b'8 files checked\n'}
+[0.693399] (talker_listener) StdoutLine: {'line': b'59 errors\n'}
+[0.693444] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.693490] (talker_listener) StdoutLine: {'line': b"'E'-type errors: 29\n"}
+[0.693537] (talker_listener) StdoutLine: {'line': b"'I'-type errors: 3\n"}
+[0.693581] (talker_listener) StdoutLine: {'line': b"'Q'-type errors: 21\n"}
+[0.693625] (talker_listener) StdoutLine: {'line': b"'W'-type errors: 6\n"}
+[0.693671] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.693717] (talker_listener) StdoutLine: {'line': b'Checked files:\n'}
+[0.693770] (talker_listener) StdoutLine: {'line': b'\n'}
+[0.693819] (talker_listener) StdoutLine: {'line': b'* ./setup.py\n'}
+[0.693865] (talker_listener) StdoutLine: {'line': b'* ./talker_listener/talker_node.py\n'}
+[0.693912] (talker_listener) StdoutLine: {'line': b'* ./talker_listener/listener_node.py\n'}
+[0.693959] (talker_listener) StdoutLine: {'line': b'* ./talker_listener/__init__.py\n'}
+[0.694005] (talker_listener) StdoutLine: {'line': b'* ./launch/talker_listener.launch.py\n'}
+[0.694051] (talker_listener) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[0.694096] (talker_listener) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[0.694141] (talker_listener) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[0.694188] (talker_listener) StdoutLine: {'line': b'-- generated xml file: /home/hassaan/ros2_ws/build/talker_listener/pytest.xml --\n'}
+[0.694234] (talker_listener) StdoutLine: {'line': b'\x1b[36m\x1b[1m=========================== short test summary info ============================\x1b[0m\n'}
+[0.694282] (talker_listener) StdoutLine: {'line': b'\x1b[31mFAILED\x1b[0m test/test_flake8.py::\x1b[1mtest_flake8\x1b[0m - AssertionError: Found 59 code style errors / warnings:\n'}
+[0.694329] (talker_listener) StdoutLine: {'line': b'\x1b[31m==================== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m\x1b[31m in 0.24s\x1b[0m\x1b[31m ====================\x1b[0m\n'}
+[0.700621] (-) TimerEvent: {}
+[0.737282] (talker_listener) CommandEnded: {'returncode': 1}
+[0.737671] (talker_listener) TestFailure: {'identifier': 'talker_listener'}
+[0.737714] (talker_listener) JobEnded: {'identifier': 'talker_listener', 'rc': 0}
+[0.737957] (-) EventReactorShutdown: {}

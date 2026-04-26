@@ -1,0 +1,6 @@
+[0.077s] Invoking command in '/home/hassan/ros-tuts/partrolbot_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hassan/ros-tuts/partrolbot_ws/build/turtlebot3_gazebo -- -j8 -l8
+[0.278s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_drive[0m
+[0.325s] [ 25%] Built target turtlebot3_drive
+[0.354s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[0.362s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[0.362s] [ 62%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m

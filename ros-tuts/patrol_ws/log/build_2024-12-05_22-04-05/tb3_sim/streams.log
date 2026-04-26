@@ -1,0 +1,20 @@
+[2.026s] Invoking command in '/home/hassan/ros-tuts/patrol_ws/build/tb3_sim': PYTHONPATH=/home/hassan/ros-tuts/patrol_ws/build/tb3_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hassan/ros-tuts/patrol_ws/install/tb3_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/build --no-deps symlink_data --force
+[2.821s] running develop
+[2.821s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.821s]   warnings.warn(
+[3.155s] running egg_info
+[3.155s] writing tb3_sim.egg-info/PKG-INFO
+[3.155s] writing dependency_links to tb3_sim.egg-info/dependency_links.txt
+[3.156s] writing entry points to tb3_sim.egg-info/entry_points.txt
+[3.156s] writing requirements to tb3_sim.egg-info/requires.txt
+[3.156s] writing top-level names to tb3_sim.egg-info/top_level.txt
+[3.159s] reading manifest file 'tb3_sim.egg-info/SOURCES.txt'
+[3.161s] writing manifest file 'tb3_sim.egg-info/SOURCES.txt'
+[3.165s] running build_ext
+[3.165s] Creating /home/hassan/ros-tuts/patrol_ws/install/tb3_sim/lib/python3.10/site-packages/tb3-sim.egg-link (link to .)
+[3.166s] 
+[3.166s] Installed /home/hassan/ros-tuts/patrol_ws/build/tb3_sim
+[3.166s] running symlink_data
+[3.167s] symbolically linking /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/resource/tb3_sim -> /home/hassan/ros-tuts/patrol_ws/install/tb3_sim/share/ament_index/resource_index/packages
+[3.167s] symbolically linking /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/package.xml -> /home/hassan/ros-tuts/patrol_ws/install/tb3_sim/share/tb3_sim
+[3.220s] Invoked command in '/home/hassan/ros-tuts/patrol_ws/build/tb3_sim' returned '0': PYTHONPATH=/home/hassan/ros-tuts/patrol_ws/build/tb3_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hassan/ros-tuts/patrol_ws/install/tb3_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/hassan/ros-tuts/patrol_ws/build/tb3_sim/build --no-deps symlink_data --force

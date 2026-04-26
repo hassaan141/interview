@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/add_integers/add_integers.egg-info
+writing ../../build/add_integers/add_integers.egg-info/PKG-INFO
+writing dependency_links to ../../build/add_integers/add_integers.egg-info/dependency_links.txt
+writing entry points to ../../build/add_integers/add_integers.egg-info/entry_points.txt
+writing requirements to ../../build/add_integers/add_integers.egg-info/requires.txt
+writing top-level names to ../../build/add_integers/add_integers.egg-info/top_level.txt
+writing manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'
+reading manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'
+writing manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hassaan/ros2_ws_p2/build/add_integers/build
+creating /home/hassaan/ros2_ws_p2/build/add_integers/build/lib
+creating /home/hassaan/ros2_ws_p2/build/add_integers/build/lib/add_integers
+copying add_integers/client_node.py -> /home/hassaan/ros2_ws_p2/build/add_integers/build/lib/add_integers
+copying add_integers/service_node.py -> /home/hassaan/ros2_ws_p2/build/add_integers/build/lib/add_integers
+copying add_integers/__init__.py -> /home/hassaan/ros2_ws_p2/build/add_integers/build/lib/add_integers
+running install
+running install_lib
+creating /home/hassaan/ros2_ws_p2/install/add_integers/lib/python3.12/site-packages/add_integers
+copying /home/hassaan/ros2_ws_p2/build/add_integers/build/lib/add_integers/client_node.py -> /home/hassaan/ros2_ws_p2/install/add_integers/lib/python3.12/site-packages/add_integers
+copying /home/hassaan/ros2_ws_p2/build/add_integers/build/lib/add_integers/service_node.py -> /home/hassaan/ros2_ws_p2/install/add_integers/lib/python3.12/site-packages/add_integers
+copying /home/hassaan/ros2_ws_p2/build/add_integers/build/lib/add_integers/__init__.py -> /home/hassaan/ros2_ws_p2/install/add_integers/lib/python3.12/site-packages/add_integers
+byte-compiling /home/hassaan/ros2_ws_p2/install/add_integers/lib/python3.12/site-packages/add_integers/client_node.py to client_node.cpython-312.pyc
+byte-compiling /home/hassaan/ros2_ws_p2/install/add_integers/lib/python3.12/site-packages/add_integers/service_node.py to service_node.cpython-312.pyc
+byte-compiling /home/hassaan/ros2_ws_p2/install/add_integers/lib/python3.12/site-packages/add_integers/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/hassaan/ros2_ws_p2/install/add_integers/share/ament_index
+creating /home/hassaan/ros2_ws_p2/install/add_integers/share/ament_index/resource_index
+creating /home/hassaan/ros2_ws_p2/install/add_integers/share/ament_index/resource_index/packages
+copying resource/add_integers -> /home/hassaan/ros2_ws_p2/install/add_integers/share/ament_index/resource_index/packages
+copying package.xml -> /home/hassaan/ros2_ws_p2/install/add_integers/share/add_integers
+running install_egg_info
+Copying ../../build/add_integers/add_integers.egg-info to /home/hassaan/ros2_ws_p2/install/add_integers/lib/python3.12/site-packages/add_integers-0.0.0-py3.12.egg-info
+running install_scripts
+Installing addition_client script to /home/hassaan/ros2_ws_p2/install/add_integers/lib/add_integers
+Installing addition_service script to /home/hassaan/ros2_ws_p2/install/add_integers/lib/add_integers
+writing list of installed files to '/home/hassaan/ros2_ws_p2/build/add_integers/install.log'

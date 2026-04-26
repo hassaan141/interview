@@ -1,0 +1,347 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /home/hassaan/ros2_ws/build/talker_listener/.pytest_cache
+rootdir: /home/hassaan/ros2_ws/src/talker_listener
+plugins: launch-testing-ros-0.26.5, ament-xmllint-0.17.1, launch-testing-3.4.2, ament-flake8-0.17.1, ament-copyright-0.17.1, ament-lint-0.17.1, ament-pep257-0.17.1, cov-4.1.0, colcon-core-0.18.1
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+    [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1m[31mE   AssertionError: Found 59 code style errors / warnings:[0m
+[1m[31mE     ./launch/talker_listener.launch.py:4:9: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./launch/talker_listener.launch.py:6:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./launch/talker_listener.launch.py:8:16: E251 unexpected spaces around keyword / parameter equals[0m
+[1m[31mE     ./launch/talker_listener.launch.py:8:18: E251 unexpected spaces around keyword / parameter equals[0m
+[1m[31mE     ./launch/talker_listener.launch.py:8:19: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./launch/talker_listener.launch.py:9:20: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./launch/talker_listener.launch.py:10:14: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./launch/talker_listener.launch.py:12:13: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./launch/talker_listener.launch.py:17:17: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./launch/talker_listener.launch.py:18:20: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./launch/talker_listener.launch.py:19:14: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./launch/talker_listener.launch.py:21:13: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./launch/talker_listener.launch.py:28:7: W292 no newline at end of file[0m
+[1m[31mE     ./setup.py:2:1: I100 Import statements are in the wrong order. 'import os' should be before 'from setuptools import find_packages, setup' and in a different group.[0m
+[1m[31mE     ./setup.py:2:1: I201 Missing newline between import groups. 'import os' is identified as Stdlib and 'from setuptools import find_packages, setup' is identified as Third Party.[0m
+[1m[31mE     ./setup.py:3:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'[0m
+[1m[31mE     ./talker_listener/listener_node.py:2:1: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/listener_node.py:6:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./talker_listener/listener_node.py:8:26: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./talker_listener/listener_node.py:10:32: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./talker_listener/listener_node.py:10:47: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./talker_listener/listener_node.py:11:41: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./talker_listener/listener_node.py:13:9: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/listener_node.py:15:20: W291 trailing whitespace[0m
+[1m[31mE     ./talker_listener/listener_node.py:16:24: W291 trailing whitespace[0m
+[1m[31mE     ./talker_listener/listener_node.py:17:36: W291 trailing whitespace[0m
+[1m[31mE     ./talker_listener/listener_node.py:20:5: E301 expected 1 blank line, found 0[0m
+[1m[31mE     ./talker_listener/listener_node.py:21:32: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./talker_listener/listener_node.py:27:5: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/listener_node.py:29:5: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/listener_node.py:32:5: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/listener_node.py:36:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1m[31mE     ./talker_listener/listener_node.py:36:16: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./talker_listener/listener_node.py:37:11: W292 no newline at end of file[0m
+[1m[31mE     ./talker_listener/talker_node.py:2:1: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/talker_node.py:8:1: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/talker_node.py:10:1: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/talker_node.py:10:100: E501 line too long (121 > 99 characters)[0m
+[1m[31mE     ./talker_listener/talker_node.py:11:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./talker_listener/talker_node.py:12:5: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/talker_node.py:14:9: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/talker_node.py:15:26: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./talker_listener/talker_node.py:17:9: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/talker_node.py:18:32: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./talker_listener/talker_node.py:18:47: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./talker_listener/talker_node.py:19:9: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/talker_node.py:20:41: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./talker_listener/talker_node.py:22:9: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/talker_node.py:25:9: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/talker_node.py:29:5: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/talker_node.py:32:17: E225 missing whitespace around operator[0m
+[1m[31mE     ./talker_listener/talker_node.py:32:18: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./talker_listener/talker_node.py:34:19: E225 missing whitespace around operator[0m
+[1m[31mE     ./talker_listener/talker_node.py:35:32: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./talker_listener/talker_node.py:41:5: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/talker_node.py:43:5: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/talker_node.py:46:5: E265 block comment should start with '# '[0m
+[1m[31mE     ./talker_listener/talker_node.py:51:12: E225 missing whitespace around operator[0m
+[1m[31mE     ./talker_listener/talker_node.py:52:11: W292 no newline at end of file[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./launch/talker_listener.launch.py:4:9: Q000 Double quotes found but single quotes preferred
+TOPIC = "chatter"
+        ^
+
+./launch/talker_listener.launch.py:6:1: E302 expected 2 blank lines, found 1
+def generate_launch_description():
+^
+
+./launch/talker_listener.launch.py:8:16: E251 unexpected spaces around keyword / parameter equals
+        package = "talker_listener",
+               ^
+
+./launch/talker_listener.launch.py:8:18: E251 unexpected spaces around keyword / parameter equals
+        package = "talker_listener",
+                 ^
+
+./launch/talker_listener.launch.py:8:19: Q000 Double quotes found but single quotes preferred
+        package = "talker_listener",
+                  ^
+
+./launch/talker_listener.launch.py:9:20: Q000 Double quotes found but single quotes preferred
+        executable="talkerNode",
+                   ^
+
+./launch/talker_listener.launch.py:10:14: Q000 Double quotes found but single quotes preferred
+        name="talker_node",
+             ^
+
+./launch/talker_listener.launch.py:12:13: Q000 Double quotes found but single quotes preferred
+            "topic": TOPIC
+            ^
+
+./launch/talker_listener.launch.py:17:17: Q000 Double quotes found but single quotes preferred
+        package="talker_listener",
+                ^
+
+./launch/talker_listener.launch.py:18:20: Q000 Double quotes found but single quotes preferred
+        executable="listenerNode",
+                   ^
+
+./launch/talker_listener.launch.py:19:14: Q000 Double quotes found but single quotes preferred
+        name="listener_node",
+             ^
+
+./launch/talker_listener.launch.py:21:13: Q000 Double quotes found but single quotes preferred
+            "topic": TOPIC
+            ^
+
+./launch/talker_listener.launch.py:28:7: W292 no newline at end of file
+    ])      ^
+
+./setup.py:2:1: I100 Import statements are in the wrong order. 'import os' should be before 'from setuptools import find_packages, setup' and in a different group.
+import os
+^
+
+./setup.py:2:1: I201 Missing newline between import groups. 'import os' is identified as Stdlib and 'from setuptools import find_packages, setup' is identified as Third Party.
+import os
+^
+
+./setup.py:3:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+from glob import glob
+^
+
+./talker_listener/listener_node.py:2:1: E265 block comment should start with '# '
+#Provides functions to create a
+^
+
+./talker_listener/listener_node.py:6:1: E302 expected 2 blank lines, found 1
+class ListenerNode(Node):
+^
+
+./talker_listener/listener_node.py:8:26: Q000 Double quotes found but single quotes preferred
+        super().__init__("listener_node")
+                         ^
+
+./talker_listener/listener_node.py:10:32: Q000 Double quotes found but single quotes preferred
+        self.declare_parameter("topic", value="listener_topic")
+                               ^
+
+./talker_listener/listener_node.py:10:47: Q000 Double quotes found but single quotes preferred
+        self.declare_parameter("topic", value="listener_topic")
+                                              ^
+
+./talker_listener/listener_node.py:11:41: Q000 Double quotes found but single quotes preferred
+        topic_name = self.get_parameter("topic").get_parameter_value().string_value
+                                        ^
+
+./talker_listener/listener_node.py:13:9: E265 block comment should start with '# '
+        #subscribed to the same topic which listens to the callback
+        ^
+
+./talker_listener/listener_node.py:15:20: W291 trailing whitespace
+            String, 
+                   ^
+
+./talker_listener/listener_node.py:16:24: W291 trailing whitespace
+            topic_name, 
+                       ^
+
+./talker_listener/listener_node.py:17:36: W291 trailing whitespace
+            self.listener_callback, 
+                                   ^
+
+./talker_listener/listener_node.py:20:5: E301 expected 1 blank line, found 0
+    def listener_callback(self, msg):
+    ^
+
+./talker_listener/listener_node.py:21:32: Q000 Double quotes found but single quotes preferred
+        self.get_logger().info(f"Received {msg.data}")
+                               ^
+
+./talker_listener/listener_node.py:27:5: E265 block comment should start with '# '
+    #create node
+    ^
+
+./talker_listener/listener_node.py:29:5: E265 block comment should start with '# '
+    #run node
+    ^
+
+./talker_listener/listener_node.py:32:5: E265 block comment should start with '# '
+    #destroy node
+    ^
+
+./talker_listener/listener_node.py:36:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == "__main__":
+^
+
+./talker_listener/listener_node.py:36:16: Q000 Double quotes found but single quotes preferred
+if __name__ == "__main__":
+               ^
+
+./talker_listener/listener_node.py:37:11: W292 no newline at end of file
+    main()          ^
+
+./talker_listener/talker_node.py:2:1: E265 block comment should start with '# '
+#Provides functions to create a ROS2 node
+^
+
+./talker_listener/talker_node.py:8:1: E265 block comment should start with '# '
+#source /opt/ros/jazzy/setup.bash
+^
+
+./talker_listener/talker_node.py:10:1: E265 block comment should start with '# '
+#Defines a class that inherits from Node, so now it has all the methods and properties (publishing, subscribing, logging)
+^
+
+./talker_listener/talker_node.py:10:100: E501 line too long (121 > 99 characters)
+#Defines a class that inherits from Node, so now it has all the methods and properties (publishing, subscribing, logging)
+                                                                                                   ^
+
+./talker_listener/talker_node.py:11:1: E302 expected 2 blank lines, found 1
+class TalkerNode(Node):
+^
+
+./talker_listener/talker_node.py:12:5: E265 block comment should start with '# '
+    #Constructor
+    ^
+
+./talker_listener/talker_node.py:14:9: E265 block comment should start with '# '
+        #calls the constructor
+        ^
+
+./talker_listener/talker_node.py:15:26: Q000 Double quotes found but single quotes preferred
+        super().__init__("talker_node")
+                         ^
+
+./talker_listener/talker_node.py:17:9: E265 block comment should start with '# '
+        #Since we are passing in the topic as a parameter, we have to pass it in
+        ^
+
+./talker_listener/talker_node.py:18:32: Q000 Double quotes found but single quotes preferred
+        self.declare_parameter("topic", value="talker_topic")
+                               ^
+
+./talker_listener/talker_node.py:18:47: Q000 Double quotes found but single quotes preferred
+        self.declare_parameter("topic", value="talker_topic")
+                                              ^
+
+./talker_listener/talker_node.py:19:9: E265 block comment should start with '# '
+        #Store it in a variable and change it to a string value
+        ^
+
+./talker_listener/talker_node.py:20:41: Q000 Double quotes found but single quotes preferred
+        topic_name = self.get_parameter("topic").get_parameter_value().string_value
+                                        ^
+
+./talker_listener/talker_node.py:22:9: E265 block comment should start with '# '
+        #creates a publisher and pushlished to the topic name topic with a queue of 10
+        ^
+
+./talker_listener/talker_node.py:25:9: E265 block comment should start with '# '
+        #calls a timer which will call the function timer_callback every 0.5 seconds
+        ^
+
+./talker_listener/talker_node.py:29:5: E265 block comment should start with '# '
+    #Puts msg
+    ^
+
+./talker_listener/talker_node.py:32:17: E225 missing whitespace around operator
+        msg.data=f"Hello World {self.count}"
+                ^
+
+./talker_listener/talker_node.py:32:18: Q000 Double quotes found but single quotes preferred
+        msg.data=f"Hello World {self.count}"
+                 ^
+
+./talker_listener/talker_node.py:34:19: E225 missing whitespace around operator
+        self.count+=1
+                  ^
+
+./talker_listener/talker_node.py:35:32: Q000 Double quotes found but single quotes preferred
+        self.get_logger().info(f"Publishing {msg.data}")
+                               ^
+
+./talker_listener/talker_node.py:41:5: E265 block comment should start with '# '
+    #create node
+    ^
+
+./talker_listener/talker_node.py:43:5: E265 block comment should start with '# '
+    #use node
+    ^
+
+./talker_listener/talker_node.py:46:5: E265 block comment should start with '# '
+    #destroy node
+    ^
+
+./talker_listener/talker_node.py:51:12: E225 missing whitespace around operator
+if __name__=='__main__':
+           ^
+
+./talker_listener/talker_node.py:52:11: W292 no newline at end of file
+    main()          ^
+
+3     E225 missing whitespace around operator
+2     E251 unexpected spaces around keyword / parameter equals
+18    E265 block comment should start with '# '
+1     E301 expected 1 blank line, found 0
+3     E302 expected 2 blank lines, found 1
+1     E305 expected 2 blank lines after class or function definition, found 1
+1     E501 line too long (121 > 99 characters)
+2     I100 Import statements are in the wrong order. 'import os' should be before 'from setuptools import find_packages, setup' and in a different group.
+1     I201 Missing newline between import groups. 'import os' is identified as Stdlib and 'from setuptools import find_packages, setup' is identified as Third Party.
+21    Q000 Double quotes found but single quotes preferred
+3     W291 trailing whitespace
+3     W292 no newline at end of file
+
+8 files checked
+59 errors
+
+'E'-type errors: 29
+'I'-type errors: 3
+'Q'-type errors: 21
+'W'-type errors: 6
+
+Checked files:
+
+* ./setup.py
+* ./talker_listener/talker_node.py
+* ./talker_listener/listener_node.py
+* ./talker_listener/__init__.py
+* ./launch/talker_listener.launch.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+* ./test/test_flake8.py
+-- generated xml file: /home/hassaan/ros2_ws/build/talker_listener/pytest.xml --
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m test/test_flake8.py::[1mtest_flake8[0m - AssertionError: Found 59 code style errors / warnings:
+[31m==================== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m[31m in 0.24s[0m[31m ====================[0m

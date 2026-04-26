@@ -1,0 +1,1 @@
+/home/hassan/ros-tuts/patrol_ws/build/hls_lfcd_lds_driver/ament_cmake_core/hls_lfcd_lds_driverConfig.cmake

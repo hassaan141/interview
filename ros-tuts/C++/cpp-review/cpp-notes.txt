@@ -1,0 +1,33 @@
+namespace - allows for declaring multiple variables named x, you use them with a scoped resolution operator, so with a double colon 
+
+  ex: namespace first{
+    int x = 1;
+  }                     
+
+  then in main it would be first::x
+
+  you can scope a namespace inside of main to use the values of that namespace
+
+  not recommened to use namspace standard because there is a high likely hood of having a naming conflict, but can use stuff from std like tying using std::string
+
+
+typedef is a reserved keyword for an addiational name, kinda like a nickname
+
+using is better because it is better for templates
+
+type conversion = conversion from one data type to another
+
+are two ways
+  - implicit and explicit cast
+  Ex: int x1 = 3.14; //implicit
+    double x2 = (int) 3.14; //explicit
+
+For getting a whiteline spaces, we can use the .getLine() function
+
+to get 
+
+to get a random number, you can do srand(time(null))
+
+bubble sort in example in thing
+
+fill function filles a whole array with whatever you want

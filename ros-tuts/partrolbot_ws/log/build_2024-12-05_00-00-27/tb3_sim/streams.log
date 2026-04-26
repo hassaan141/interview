@@ -1,0 +1,32 @@
+[0.974s] Invoking command in '/home/hassan/ros-tuts/partrolbot_ws/build/tb3_sim': PYTHONPATH=/home/hassan/ros-tuts/partrolbot_ws/build/tb3_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/hassan/ros-tuts/partrolbot_ws/build/tb3_sim/build --no-deps symlink_data
+[1.331s] running develop
+[1.331s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.331s]   warnings.warn(
+[1.554s] running egg_info
+[1.554s] creating tb3_sim.egg-info
+[1.554s] writing tb3_sim.egg-info/PKG-INFO
+[1.554s] writing dependency_links to tb3_sim.egg-info/dependency_links.txt
+[1.555s] writing entry points to tb3_sim.egg-info/entry_points.txt
+[1.555s] writing requirements to tb3_sim.egg-info/requires.txt
+[1.555s] writing top-level names to tb3_sim.egg-info/top_level.txt
+[1.555s] writing manifest file 'tb3_sim.egg-info/SOURCES.txt'
+[1.557s] reading manifest file 'tb3_sim.egg-info/SOURCES.txt'
+[1.558s] writing manifest file 'tb3_sim.egg-info/SOURCES.txt'
+[1.561s] running build_ext
+[1.561s] Creating /home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim/lib/python3.10/site-packages/tb3-sim.egg-link (link to .)
+[1.562s] Installing amcl_init_pose_publisher script to /home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim/lib/tb3_sim
+[1.562s] 
+[1.562s] Installed /home/hassan/ros-tuts/partrolbot_ws/build/tb3_sim
+[1.567s] running symlink_data
+[1.567s] creating /home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim/share/ament_index
+[1.567s] creating /home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim/share/ament_index/resource_index
+[1.567s] creating /home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim/share/ament_index/resource_index/packages
+[1.567s] symbolically linking /home/hassan/ros-tuts/partrolbot_ws/build/tb3_sim/resource/tb3_sim -> /home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim/share/ament_index/resource_index/packages
+[1.567s] symbolically linking /home/hassan/ros-tuts/partrolbot_ws/build/tb3_sim/package.xml -> /home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim/share/tb3_sim
+[1.567s] creating /home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim/share/tb3_sim/launch
+[1.567s] symbolically linking /home/hassan/ros-tuts/partrolbot_ws/build/tb3_sim/launch/nav2.launch.py -> /home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim/share/tb3_sim/launch
+[1.567s] symbolically linking /home/hassan/ros-tuts/partrolbot_ws/build/tb3_sim/launch/partrolbot_world.launch.py -> /home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim/share/tb3_sim/launch
+[1.567s] creating /home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim/share/tb3_sim/maps
+[1.567s] symbolically linking /home/hassan/ros-tuts/partrolbot_ws/build/tb3_sim/maps/map.pgm -> /home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim/share/tb3_sim/maps
+[1.567s] symbolically linking /home/hassan/ros-tuts/partrolbot_ws/build/tb3_sim/maps/map.yaml -> /home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim/share/tb3_sim/maps
+[1.646s] Invoked command in '/home/hassan/ros-tuts/partrolbot_ws/build/tb3_sim' returned '0': PYTHONPATH=/home/hassan/ros-tuts/partrolbot_ws/build/tb3_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/hassan/ros-tuts/partrolbot_ws/build/tb3_sim/build --no-deps symlink_data

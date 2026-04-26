@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="3" time="0.209" timestamp="2024-11-03T22:33:12.202199" hostname="hassaan-Aspire-A515-56"><testcase classname="talker_listener.test.test_copyright" name="test_copyright" time="0.000"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/hassaan/ros2_ws/src/talker_listener/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="talker_listener.test.test_flake8" name="test_flake8" time="0.095"><failure message="AssertionError: Found 59 code style errors / warnings:&#10;  ./launch/talker_listener.launch.py:4:9: Q000 Double quotes found but single quotes preferred&#10;  ./launch/talker_listener.launch.py:6:1: E302 expected 2 blank lines, found 1&#10;  ./launch/talker_listener.launch.py:8:16: E251 unexpected spaces around keyword / parameter equals&#10;  ./launch/talker_listener.launch.py:8:18: E251 unexpected spaces around keyword / parameter equals&#10;  ./launch/talker_listener.launch.py:8:19: Q000 Double quotes found but single quotes preferred&#10;  ./launch/talker_listener.launch.py:9:20: Q000 Double quotes found but single quotes preferred&#10;  ./launch/talker_listener.launch.py:10:14: Q000 Double quotes found but single quotes preferred&#10;  ./launch/talker_listener.launch.py:12:13: Q000 Double quotes found but single quotes preferred&#10;  ./launch/talker_listener.launch.py:17:17: Q000 Double quotes found but single quotes preferred&#10;  ./launch/talker_listener.launch.py:18:20: Q000 Double quotes found but single quotes preferred&#10;  ./launch/talker_listener.launch.py:19:14: Q000 Double quotes found but single quotes preferred&#10;  ./launch/talker_listener.launch.py:21:13: Q000 Double quotes found but single quotes preferred&#10;  ./launch/talker_listener.launch.py:28:7: W292 no newline at end of file&#10;  ./setup.py:2:1: I100 Import statements are in the wrong order. 'import os' should be before 'from setuptools import find_packages, setup' and in a different group.&#10;  ./setup.py:2:1: I201 Missing newline between import groups. 'import os' is identified as Stdlib and 'from setuptools import find_packages, setup' is identified as Third Party.&#10;  ./setup.py:3:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'&#10;  ./talker_listener/listener_node.py:2:1: E265 block comment should start with '# '&#10;  ./talker_listener/listener_node.py:6:1: E302 expected 2 blank lines, found 1&#10;  ./talker_listener/listener_node.py:8:26: Q000 Double quotes found but single quotes preferred&#10;  ./talker_listener/listener_node.py:10:32: Q000 Double quotes found but single quotes preferred&#10;  ./talker_listener/listener_node.py:10:47: Q000 Double quotes found but single quotes preferred&#10;  ./talker_listener/listener_node.py:11:41: Q000 Double quotes found but single quotes preferred&#10;  ./talker_listener/listener_node.py:13:9: E265 block comment should start with '# '&#10;  ./talker_listener/listener_node.py:15:20: W291 trailing whitespace&#10;  ./talker_listener/listener_node.py:16:24: W291 trailing whitespace&#10;  ./talker_listener/listener_node.py:17:36: W291 trailing whitespace&#10;  ./talker_listener/listener_node.py:20:5: E301 expected 1 blank line, found 0&#10;  ./talker_listener/listener_node.py:21:32: Q000 Double quotes found but single quotes preferred&#10;  ./talker_listener/listener_node.py:27:5: E265 block comment should start with '# '&#10;  ./talker_listener/listener_node.py:29:5: E265 block comment should start with '# '&#10;  ./talker_listener/listener_node.py:32:5: E265 block comment should start with '# '&#10;  ./talker_listener/listener_node.py:36:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./talker_listener/listener_node.py:36:16: Q000 Double quotes found but single quotes preferred&#10;  ./talker_listener/listener_node.py:37:11: W292 no newline at end of file&#10;  ./talker_listener/talker_node.py:2:1: E265 block comment should start with '# '&#10;  ./talker_listener/talker_node.py:8:1: E265 block comment should start with '# '&#10;  ./talker_listener/talker_node.py:10:1: E265 block comment should start with '# '&#10;  ./talker_listener/talker_node.py:10:100: E501 line too long (121 &gt; 99 characters)&#10;  ./talker_listener/talker_node.py:11:1: E302 expected 2 blank lines, found 1&#10;  ./talker_listener/talker_node.py:12:5: E265 block comment should start with '# '&#10;  ./talker_listener/talker_node.py:14:9: E265 block comment should start with '# '&#10;  ./talker_listener/talker_node.py:15:26: Q000 Double quotes found but single quotes preferred&#10;  ./talker_listener/talker_node.py:17:9: E265 block comment should start with '# '&#10;  ./talker_listener/talker_node.py:18:32: Q000 Double quotes found but single quotes preferred&#10;  ./talker_listener/talker_node.py:18:47: Q000 Double quotes found but single quotes preferred&#10;  ./talker_listener/talker_node.py:19:9: E265 block comment should start with '# '&#10;  ./talker_listener/talker_node.py:20:41: Q000 Double quotes found but single quotes preferred&#10;  ./talker_listener/talker_node.py:22:9: E265 block comment should start with '# '&#10;  ./talker_listener/talker_node.py:25:9: E265 block comment should start with '# '&#10;  ./talker_listener/talker_node.py:29:5: E265 block comment should start with '# '&#10;  ./talker_listener/talker_node.py:32:17: E225 missing whitespace around operator&#10;  ./talker_listener/talker_node.py:32:18: Q000 Double quotes found but single quotes preferred&#10;  ./talker_listener/talker_node.py:34:19: E225 missing whitespace around operator&#10;  ./talker_listener/talker_node.py:35:32: Q000 Double quotes found but single quotes preferred&#10;  ./talker_listener/talker_node.py:41:5: E265 block comment should start with '# '&#10;  ./talker_listener/talker_node.py:43:5: E265 block comment should start with '# '&#10;  ./talker_listener/talker_node.py:46:5: E265 block comment should start with '# '&#10;  ./talker_listener/talker_node.py:51:12: E225 missing whitespace around operator&#10;  ./talker_listener/talker_node.py:52:11: W292 no newline at end of file&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 59 code style errors / warnings:
+E     ./launch/talker_listener.launch.py:4:9: Q000 Double quotes found but single quotes preferred
+E     ./launch/talker_listener.launch.py:6:1: E302 expected 2 blank lines, found 1
+E     ./launch/talker_listener.launch.py:8:16: E251 unexpected spaces around keyword / parameter equals
+E     ./launch/talker_listener.launch.py:8:18: E251 unexpected spaces around keyword / parameter equals
+E     ./launch/talker_listener.launch.py:8:19: Q000 Double quotes found but single quotes preferred
+E     ./launch/talker_listener.launch.py:9:20: Q000 Double quotes found but single quotes preferred
+E     ./launch/talker_listener.launch.py:10:14: Q000 Double quotes found but single quotes preferred
+E     ./launch/talker_listener.launch.py:12:13: Q000 Double quotes found but single quotes preferred
+E     ./launch/talker_listener.launch.py:17:17: Q000 Double quotes found but single quotes preferred
+E     ./launch/talker_listener.launch.py:18:20: Q000 Double quotes found but single quotes preferred
+E     ./launch/talker_listener.launch.py:19:14: Q000 Double quotes found but single quotes preferred
+E     ./launch/talker_listener.launch.py:21:13: Q000 Double quotes found but single quotes preferred
+E     ./launch/talker_listener.launch.py:28:7: W292 no newline at end of file
+E     ./setup.py:2:1: I100 Import statements are in the wrong order. 'import os' should be before 'from setuptools import find_packages, setup' and in a different group.
+E     ./setup.py:2:1: I201 Missing newline between import groups. 'import os' is identified as Stdlib and 'from setuptools import find_packages, setup' is identified as Third Party.
+E     ./setup.py:3:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+E     ./talker_listener/listener_node.py:2:1: E265 block comment should start with '# '
+E     ./talker_listener/listener_node.py:6:1: E302 expected 2 blank lines, found 1
+E     ./talker_listener/listener_node.py:8:26: Q000 Double quotes found but single quotes preferred
+E     ./talker_listener/listener_node.py:10:32: Q000 Double quotes found but single quotes preferred
+E     ./talker_listener/listener_node.py:10:47: Q000 Double quotes found but single quotes preferred
+E     ./talker_listener/listener_node.py:11:41: Q000 Double quotes found but single quotes preferred
+E     ./talker_listener/listener_node.py:13:9: E265 block comment should start with '# '
+E     ./talker_listener/listener_node.py:15:20: W291 trailing whitespace
+E     ./talker_listener/listener_node.py:16:24: W291 trailing whitespace
+E     ./talker_listener/listener_node.py:17:36: W291 trailing whitespace
+E     ./talker_listener/listener_node.py:20:5: E301 expected 1 blank line, found 0
+E     ./talker_listener/listener_node.py:21:32: Q000 Double quotes found but single quotes preferred
+E     ./talker_listener/listener_node.py:27:5: E265 block comment should start with '# '
+E     ./talker_listener/listener_node.py:29:5: E265 block comment should start with '# '
+E     ./talker_listener/listener_node.py:32:5: E265 block comment should start with '# '
+E     ./talker_listener/listener_node.py:36:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./talker_listener/listener_node.py:36:16: Q000 Double quotes found but single quotes preferred
+E     ./talker_listener/listener_node.py:37:11: W292 no newline at end of file
+E     ./talker_listener/talker_node.py:2:1: E265 block comment should start with '# '
+E     ./talker_listener/talker_node.py:8:1: E265 block comment should start with '# '
+E     ./talker_listener/talker_node.py:10:1: E265 block comment should start with '# '
+E     ./talker_listener/talker_node.py:10:100: E501 line too long (121 &gt; 99 characters)
+E     ./talker_listener/talker_node.py:11:1: E302 expected 2 blank lines, found 1
+E     ./talker_listener/talker_node.py:12:5: E265 block comment should start with '# '
+E     ./talker_listener/talker_node.py:14:9: E265 block comment should start with '# '
+E     ./talker_listener/talker_node.py:15:26: Q000 Double quotes found but single quotes preferred
+E     ./talker_listener/talker_node.py:17:9: E265 block comment should start with '# '
+E     ./talker_listener/talker_node.py:18:32: Q000 Double quotes found but single quotes preferred
+E     ./talker_listener/talker_node.py:18:47: Q000 Double quotes found but single quotes preferred
+E     ./talker_listener/talker_node.py:19:9: E265 block comment should start with '# '
+E     ./talker_listener/talker_node.py:20:41: Q000 Double quotes found but single quotes preferred
+E     ./talker_listener/talker_node.py:22:9: E265 block comment should start with '# '
+E     ./talker_listener/talker_node.py:25:9: E265 block comment should start with '# '
+E     ./talker_listener/talker_node.py:29:5: E265 block comment should start with '# '
+E     ./talker_listener/talker_node.py:32:17: E225 missing whitespace around operator
+E     ./talker_listener/talker_node.py:32:18: Q000 Double quotes found but single quotes preferred
+E     ./talker_listener/talker_node.py:34:19: E225 missing whitespace around operator
+E     ./talker_listener/talker_node.py:35:32: Q000 Double quotes found but single quotes preferred
+E     ./talker_listener/talker_node.py:41:5: E265 block comment should start with '# '
+E     ./talker_listener/talker_node.py:43:5: E265 block comment should start with '# '
+E     ./talker_listener/talker_node.py:46:5: E265 block comment should start with '# '
+E     ./talker_listener/talker_node.py:51:12: E225 missing whitespace around operator
+E     ./talker_listener/talker_node.py:52:11: W292 no newline at end of file
+E   assert 1 == 0</failure></testcase><testcase classname="talker_listener.test.test_pep257" name="test_pep257" time="0.013" /></testsuite></testsuites>

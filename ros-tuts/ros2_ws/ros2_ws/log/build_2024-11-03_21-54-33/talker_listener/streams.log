@@ -1,0 +1,23 @@
+[0.553s] Invoking command in '/home/hassaan/ros2_ws/src/talker_listener': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hassaan/ros2_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hassaan/ros2_ws/install/talker_listener/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/hassaan/ros2_ws/build/talker_listener/build install --record /home/hassaan/ros2_ws/build/talker_listener/install.log --single-version-externally-managed install_data
+[0.739s] running egg_info
+[0.752s] writing ../../build/talker_listener/talker_listener.egg-info/PKG-INFO
+[0.752s] writing dependency_links to ../../build/talker_listener/talker_listener.egg-info/dependency_links.txt
+[0.753s] writing entry points to ../../build/talker_listener/talker_listener.egg-info/entry_points.txt
+[0.753s] writing requirements to ../../build/talker_listener/talker_listener.egg-info/requires.txt
+[0.753s] writing top-level names to ../../build/talker_listener/talker_listener.egg-info/top_level.txt
+[0.781s] reading manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+[0.782s] writing manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+[0.782s] running build
+[0.782s] running build_py
+[0.782s] running install
+[0.787s] running install_lib
+[0.801s] running install_data
+[0.801s] creating /home/hassaan/ros2_ws/install/talker_listener/share/talker_listener/launch
+[0.801s] running install_egg_info
+[0.817s] removing '/home/hassaan/ros2_ws/install/talker_listener/lib/python3.12/site-packages/talker_listener-0.0.0-py3.12.egg-info' (and everything under it)
+[0.817s] Copying ../../build/talker_listener/talker_listener.egg-info to /home/hassaan/ros2_ws/install/talker_listener/lib/python3.12/site-packages/talker_listener-0.0.0-py3.12.egg-info
+[0.818s] running install_scripts
+[0.912s] Installing listenerNode script to /home/hassaan/ros2_ws/install/talker_listener/lib/talker_listener
+[0.912s] Installing talkerNode script to /home/hassaan/ros2_ws/install/talker_listener/lib/talker_listener
+[0.912s] writing list of installed files to '/home/hassaan/ros2_ws/build/talker_listener/install.log'
+[0.935s] Invoked command in '/home/hassaan/ros2_ws/src/talker_listener' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hassaan/ros2_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hassaan/ros2_ws/install/talker_listener/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/hassaan/ros2_ws/build/talker_listener/build install --record /home/hassaan/ros2_ws/build/talker_listener/install.log --single-version-externally-managed install_data

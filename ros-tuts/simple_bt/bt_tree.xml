@@ -1,0 +1,14 @@
+<root main_tree_to_execute = "MainTree" > 
+    <BehaviorTree ID="MainTree">
+        <!-- Looking at our picture, we have one tree at the top layer called sequence node -->
+        <Sequence name="root_sequence">
+            <!-- Then we have our leaf nodes in order -->
+            <CheckBattery name="check_battery"/>
+            <OpenGripper name="open_gripper"/>
+            <ApproachObject name="approach_object"/>
+            <CloseGripper name="close_gripper"/>
+
+        </Sequence>
+    </BehaviorTree>
+
+</root>

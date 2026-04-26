@@ -1,0 +1,46 @@
+[0.089s] Invoking command in '/home/hassan/ros-tuts/patrol_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hassan/ros-tuts/patrol_ws/install/turtlebot3_teleop:/home/hassan/ros-tuts/patrol_ws/install/turtlebot3_example:/home/hassan/ros-tuts/patrol_ws/install/tb3_sim:/opt/ros/humble /usr/bin/cmake /home/hassan/ros-tuts/patrol_ws/src/utils/hls_lfcd_lds_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver
+[0.166s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.555s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.568s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.674s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.684s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.706s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.739s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.787s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.930s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.936s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.470s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.675s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.096s] -- Configuring done
+[2.124s] -- Generating done
+[2.128s] -- Build files have been written to: /home/hassan/ros-tuts/patrol_ws/build/hls_lfcd_lds_driver
+[2.675s] Invoked command in '/home/hassan/ros-tuts/patrol_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hassan/ros-tuts/patrol_ws/install/turtlebot3_teleop:/home/hassan/ros-tuts/patrol_ws/install/turtlebot3_example:/home/hassan/ros-tuts/patrol_ws/install/tb3_sim:/opt/ros/humble /usr/bin/cmake /home/hassan/ros-tuts/patrol_ws/src/utils/hls_lfcd_lds_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver
+[2.681s] Invoking command in '/home/hassan/ros-tuts/patrol_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hassan/ros-tuts/patrol_ws/install/turtlebot3_teleop:/home/hassan/ros-tuts/patrol_ws/install/turtlebot3_example:/home/hassan/ros-tuts/patrol_ws/install/tb3_sim:/opt/ros/humble /usr/bin/cmake --build /home/hassan/ros-tuts/patrol_ws/build/hls_lfcd_lds_driver -- -j8 -l8
+[2.785s] [35m[1mConsolidate compiler generated dependencies of target hlds_laser_publisher[0m
+[2.897s] [100%] Built target hlds_laser_publisher
+[3.424s] Invoked command in '/home/hassan/ros-tuts/patrol_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hassan/ros-tuts/patrol_ws/install/turtlebot3_teleop:/home/hassan/ros-tuts/patrol_ws/install/turtlebot3_example:/home/hassan/ros-tuts/patrol_ws/install/tb3_sim:/opt/ros/humble /usr/bin/cmake --build /home/hassan/ros-tuts/patrol_ws/build/hls_lfcd_lds_driver -- -j8 -l8
+[3.494s] Invoking command in '/home/hassan/ros-tuts/patrol_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hassan/ros-tuts/patrol_ws/install/turtlebot3_teleop:/home/hassan/ros-tuts/patrol_ws/install/turtlebot3_example:/home/hassan/ros-tuts/patrol_ws/install/tb3_sim:/opt/ros/humble /usr/bin/cmake --install /home/hassan/ros-tuts/patrol_ws/build/hls_lfcd_lds_driver
+[3.510s] -- Install configuration: ""
+[3.511s] -- Execute custom install script
+[3.513s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/hlds_laser.launch.py
+[3.513s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/view_hlds_laser.launch.py
+[3.516s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/rviz/hlds_laser.rviz
+[3.516s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher
+[3.516s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/package_run_dependencies/hls_lfcd_lds_driver
+[3.517s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/parent_prefix_path/hls_lfcd_lds_driver
+[3.517s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.sh
+[3.517s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.dsv
+[3.517s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.sh
+[3.518s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.dsv
+[3.518s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.bash
+[3.518s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.sh
+[3.518s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.zsh
+[3.519s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.dsv
+[3.519s] -- Symlinking: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.dsv
+[3.540s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/packages/hls_lfcd_lds_driver
+[3.540s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.544s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.544s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig.cmake
+[3.545s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig-version.cmake
+[3.545s] -- Up-to-date symlink: /home/hassan/ros-tuts/patrol_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.xml
+[3.553s] Invoked command in '/home/hassan/ros-tuts/patrol_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hassan/ros-tuts/patrol_ws/install/turtlebot3_teleop:/home/hassan/ros-tuts/patrol_ws/install/turtlebot3_example:/home/hassan/ros-tuts/patrol_ws/install/tb3_sim:/opt/ros/humble /usr/bin/cmake --install /home/hassan/ros-tuts/patrol_ws/build/hls_lfcd_lds_driver

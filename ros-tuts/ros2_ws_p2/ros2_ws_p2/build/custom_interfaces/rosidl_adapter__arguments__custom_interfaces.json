@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/hassaan/ros2_ws_p2/src/custom_interfaces:srv/AddTwoInts.srv"
+  ]
+}

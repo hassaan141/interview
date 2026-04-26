@@ -1,0 +1,11 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/hassan/ros-tuts/patrol_ws/src/turtlebot3/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/hassan/ros-tuts/patrol_ws/src/turtlebot3/turtlebot3_msgs:msg/Sound.msg",
+    "/home/hassan/ros-tuts/patrol_ws/src/turtlebot3/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/hassan/ros-tuts/patrol_ws/src/turtlebot3/turtlebot3_msgs:srv/Sound.srv",
+    "/home/hassan/ros-tuts/patrol_ws/src/turtlebot3/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/hassan/ros-tuts/patrol_ws/src/turtlebot3/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

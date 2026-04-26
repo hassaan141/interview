@@ -1,0 +1,1 @@
+/home/hassan/ros-tuts/partrolbot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h

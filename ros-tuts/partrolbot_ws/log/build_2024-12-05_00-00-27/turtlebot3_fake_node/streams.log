@@ -1,0 +1,32 @@
+[6.976s] Invoking command in '/home/hassan/ros-tuts/partrolbot_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_msgs:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_simulations:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_bringup:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_node:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_navigation2:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_fake_node:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_gazebo:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_description:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_cartographer:/home/hassan/ros-tuts/partrolbot_ws/install/hls_lfcd_lds_driver:/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_examples:/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk_custom_interfaces:/home/hassan/ros-tuts/partrolbot_ws/install/dynamixel_sdk:/home/hassan/rosbot_ws/install/ros_bot:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_teleop:/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_example:/home/hassan/ros-tuts/partrolbot_ws/install/tb3_sim:/opt/ros/humble /usr/bin/cmake /home/hassan/ros-tuts/partrolbot_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hassan/ros-tuts/partrolbot_ws/install/turtlebot3_fake_node
+[7.292s] -- The C compiler identification is GNU 11.4.0
+[7.502s] -- The CXX compiler identification is GNU 11.4.0
+[7.530s] -- Detecting C compiler ABI info
+[7.674s] -- Detecting C compiler ABI info - done
+[7.693s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.695s] -- Detecting C compile features
+[7.695s] -- Detecting C compile features - done
+[7.708s] -- Detecting CXX compiler ABI info
+[7.815s] -- Detecting CXX compiler ABI info - done
+[7.825s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.825s] -- Detecting CXX compile features
+[7.826s] -- Detecting CXX compile features - done
+[7.834s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.159s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.362s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.468s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[8.656s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.669s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.698s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.748s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.799s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.956s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[9.013s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[9.189s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.206s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.537s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.670s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.022s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.088s] -- Looking for pthread.h
+[47.492s] -- Looking for pthread.h - found
+[104.130s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD

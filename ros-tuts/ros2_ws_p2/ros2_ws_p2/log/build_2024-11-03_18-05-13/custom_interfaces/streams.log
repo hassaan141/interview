@@ -1,0 +1,45 @@
+[0.012s] Invoking command in '/home/hassaan/ros2_ws_p2/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hassaan/ros2_ws_p2/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/hassaan/ros2_ws_p2/install/custom_interfaces
+[0.023s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.199s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.241s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.272s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.465s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.466s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.466s]   custom_interfaces --arguments-file
+[0.466s]   /home/hassaan/ros2_ws_p2/build/custom_interfaces/rosidl_adapter__arguments__custom_interfaces.json
+[0.466s]   --output-dir
+[0.466s]   /home/hassaan/ros2_ws_p2/build/custom_interfaces/rosidl_adapter/custom_interfaces
+[0.466s]   --output-file
+[0.466s]   /home/hassaan/ros2_ws_p2/build/custom_interfaces/rosidl_adapter/custom_interfaces.idls)
+[0.466s]   returned error code 1:
+[0.466s] 
+[0.466s]   Traceback (most recent call last):
+[0.466s] 
+[0.466s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.466s]     File "<frozen runpy>", line 88, in _run_code
+[0.466s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.466s]       sys.exit(main())
+[0.466s]                ^^^^^^
+[0.466s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.466s]       abs_idl_file = convert_to_idl(
+[0.466s]                      ^^^^^^^^^^^^^^^
+[0.466s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.467s]       return convert_srv_to_idl(
+[0.467s]              ^^^^^^^^^^^^^^^^^^^
+[0.467s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.467s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.467s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.467s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 851, in parse_service_string
+[0.467s]       raise InvalidServiceSpecification(
+[0.467s] 
+[0.467s]   rosidl_adapter.parser.InvalidServiceSpecification: Could not find separator
+[0.467s]   '---' between request and response
+[0.467s] 
+[0.467s] Call Stack (most recent call first):
+[0.467s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.467s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.467s] 
+[0.467s] [0m
+[0.467s] -- Configuring incomplete, errors occurred!
+[0.470s] Invoked command in '/home/hassaan/ros2_ws_p2/build/custom_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hassaan/ros2_ws_p2/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/hassaan/ros2_ws_p2/install/custom_interfaces
