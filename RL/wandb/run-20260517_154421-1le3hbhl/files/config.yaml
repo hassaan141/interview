@@ -1,0 +1,73 @@
+_wandb:
+    value:
+        cli_version: 0.26.1
+        code_path: code/RL/ppo.py
+        e:
+            h609xn8qd7ychxtr3vy6lwdyz4wqe8vd:
+                apple:
+                    ecpuCores: 6
+                    gpuCores: 8
+                    macModel: Mac16,12
+                    memoryGb: 16
+                    name: Apple M4
+                    pcpuCores: 4
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "2147483648"
+                args:
+                    - --track
+                codePath: RL/ppo.py
+                codePathLocal: ppo.py
+                cpu_count: 10
+                cpu_count_logical: 10
+                disk:
+                    /:
+                        total: "245107195904"
+                        used: "49271595008"
+                email: hassaanfarooqi2000@gmail.com
+                executable: /Users/hassaan/Projects/interview/venv/bin/python3
+                git:
+                    commit: cbcb51647e23367801390733a3ce2cf7f65e4319
+                    remote: git@github.com:hassaan141/interview.git
+                host: Hassaans-MacBook-Air.local
+                memory:
+                    total: "17179869184"
+                os: macOS-26.5-arm64-arm-64bit
+                program: /Users/hassaan/Projects/interview/RL/ppo.py
+                python: CPython 3.9.6
+                root: /Users/hassaan/Projects/interview/RL
+                startedAt: "2026-05-17T19:44:21.735845Z"
+                writerId: h609xn8qd7ychxtr3vy6lwdyz4wqe8vd
+        m: []
+        python_version: 3.9.6
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 13
+                - 16
+                - 35
+                - 41
+            "4": 3.9.6
+            "5": 0.26.1
+            "12": 0.26.1
+            "13": darwin-arm64
+cuda:
+    value: true
+exp_name:
+    value: RL
+gym_id:
+    value: CartPole-v1
+learning_rate:
+    value: 0.00025
+seed:
+    value: 0
+torch_deterministic:
+    value: true
+track:
+    value: true
+wandb_entity:
+    value: null
+wandb_project:
+    value: cleanRL

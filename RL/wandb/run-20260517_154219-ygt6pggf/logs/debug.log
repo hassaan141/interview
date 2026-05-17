@@ -1,0 +1,5 @@
+2026-05-17 15:42:19,581 INFO    MainThread:53385 [wandb_setup.py:_flush():81] Current SDK version is 0.26.1
+2026-05-17 15:42:19,581 INFO    MainThread:53385 [wandb_setup.py:_flush():81] Configure stats pid to 53385
+2026-05-17 15:42:19,581 INFO    MainThread:53385 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-05-17 15:42:19,582 INFO    MainThread:53385 [wandb_init.py:setup_run_log_directory():723] Logging user logs to /Users/hassaan/Projects/interview/RL/wandb/run-20260517_154219-ygt6pggf/logs/debug.log
+2026-05-17 15:42:19,582 INFO    MainThread:53385 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to /Users/hassaan/Projects/interview/RL/wandb/run-20260517_154219-ygt6pggf/logs/debug-internal.log

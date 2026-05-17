@@ -1,0 +1,24 @@
+{"time":"2026-05-17T15:44:22.052446-04:00","level":"INFO","msg":"wandb-core"}
+{"time":"2026-05-17T15:44:22.054044-04:00","level":"INFO","msg":"stream: starting","core version":"0.26.1"}
+{"time":"2026-05-17T15:44:22.295693-04:00","level":"INFO","msg":"stream: created new stream","id":"1le3hbhl"}
+{"time":"2026-05-17T15:44:22.295773-04:00","level":"INFO","msg":"handler: started"}
+{"time":"2026-05-17T15:44:22.295874-04:00","level":"INFO","msg":"stream: started"}
+{"time":"2026-05-17T15:44:22.295881-04:00","level":"INFO","msg":"writer: started","stream_id":"1le3hbhl"}
+{"time":"2026-05-17T15:44:22.296045-04:00","level":"INFO","msg":"sender: started"}
+{"time":"2026-05-17T15:44:22.639426-04:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2026-05-17T15:44:28.000715-04:00","level":"INFO","msg":"filestream: sending request","total_files":0,"uploaded_len":1}
+{"time":"2026-05-17T15:44:28.18519-04:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-05-17T15:44:32.693605-04:00","level":"WARN","msg":"tensorboard: no root directory","error":"timed out after 10s"}
+{"time":"2026-05-17T15:44:32.69394-04:00","level":"INFO","msg":"tensorboard: tracking new log directory","rootDir":{},"logDir":"LocalOrCloudPath(LocalPath=\"/Users/hassaan/Projects/interview/RL/runs/CartPole-v1__RL__0__1779047061\")","namespace":""}
+{"time":"2026-05-17T15:44:32.697364-04:00","level":"INFO","msg":"tensorboard: saving file","fileLocation":"/Users/hassaan/Projects/interview/RL/runs/CartPole-v1__RL__0__1779047061/events.out.tfevents.1779047062.Hassaans-MacBook-Air.local.54618.0","runPath":"runs/CartPole-v1__RL__0__1779047061/events.out.tfevents.1779047062.Hassaans-MacBook-Air.local.54618.0"}
+{"time":"2026-05-17T15:44:32.701065-04:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":108}
+{"time":"2026-05-17T15:44:32.701144-04:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":1}
+{"time":"2026-05-17T15:44:32.701591-04:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":141}
+{"time":"2026-05-17T15:44:32.703271-04:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":170}
+{"time":"2026-05-17T15:44:33.119461-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-05-17T15:44:33.119962-04:00","level":"INFO","msg":"filestream: sending request","total_files":2,"history_offset":0,"history_lines":100,"uploaded_len":5,"complete":true,"exit_code":0}
+{"time":"2026-05-17T15:44:33.335878-04:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-05-17T15:44:33.336587-04:00","level":"INFO","msg":"stream: finishing up"}
+{"time":"2026-05-17T15:44:33.336652-04:00","level":"INFO","msg":"handler: closed"}
+{"time":"2026-05-17T15:44:33.337015-04:00","level":"INFO","msg":"sender: closed"}
+{"time":"2026-05-17T15:44:33.337043-04:00","level":"INFO","msg":"stream: all finished"}
