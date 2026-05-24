@@ -12,6 +12,11 @@ Install first:
     pip install stable-baselines3[extra] gymnasium[mujoco]
 """
 
+from xml.parsers.expat import model
+
+from xml.parsers.expat import model
+
+import gymnasium as gym
 import numpy as np
 import torch
 from stable_baselines3 import PPO
@@ -48,7 +53,7 @@ def exercise_3():
     model = PPO(
         "MlpPolicy",
         env,
-
+        target_kl=0.03,
         # Collect more data per update — walking needs longer rollouts
         n_steps=2048,           # (CartPole used 128)
         # WHY: 128 steps ≈ 0.5 seconds of walking. Not enough to learn a gait.
@@ -109,20 +114,22 @@ def exercise_3():
     print(f"\nTuned PPO after {TIMESTEPS:,} steps: {mean_reward:.1f} +/- {std_reward:.1f}")
 
     # 3d. Plot the learning curve (uncomment when ready)
-    # import matplotlib.pyplot as plt
-    # fig, ax = plt.subplots(figsize=(10, 4))
-    # ax.plot(tracker.episode_timesteps, tracker.episode_rewards, alpha=0.3, color="steelblue")
-    # window = 20
-    # if len(tracker.episode_rewards) >= window:
-    #     smoothed = np.convolve(tracker.episode_rewards, np.ones(window)/window, mode="valid")
-    #     ax.plot(tracker.episode_timesteps[window-1:], smoothed, color="darkblue", linewidth=2)
-    # ax.set_xlabel("Timesteps")
-    # ax.set_ylabel("Episode Reward")
-    # ax.set_title("PPO on HalfCheetah-v5 (Tuned)")
-    # ax.grid(True, alpha=0.3)
-    # plt.tight_layout()
-    # plt.savefig("halfcheetah_learning_curve.png", dpi=150)
-    # plt.show()
+    import matplotlib.pyplot as plt
+    fig, ax = plt.subplots(figsize=(10, 4))
+    ax.plot(tracker.episode_timesteps, tracker.episode_rewards, alpha=0.3, color="steelblue")
+    window = 20
+    if len(tracker.episode_rewards) >= window:
+        smoothed = np.convolve(tracker.episode_rewards, np.ones(window)/window, mode="valid")
+        ax.plot(tracker.episode_timesteps[window-1:], smoothed, color="darkblue", linewidth=2)
+    ax.set_xlabel("Timesteps")
+    ax.set_ylabel("Episode Reward")
+    ax.set_title("PPO on HalfCheetah-v5 (Tuned)")
+    ax.grid(True, alpha=0.3)
+    plt.tight_layout()
+    plt.savefig("halfcheetah_learning_curve.png", dpi=150)
+    plt.close()
+
+    model.save("halfcheetah_ppo_tuned")
 
     # EXPERIMENT: Try changing ONE thing at a time and retrain:
     # - What happens with n_steps=128 (CartPole default)?
@@ -131,8 +138,16 @@ def exercise_3():
     # - What happens with learning_rate=1e-2 (too high)?
     # Write your observations as comments here:
     # TODO
+    view_env = gym.make("HalfCheetah-v5", render_mode="human")
+    obs, _ = view_env.reset()
 
-    model.save("halfcheetah_ppo_tuned")
+    for _ in range(1000):
+        action, _ = model.predict(obs, deterministic=True)
+        obs, reward, terminated, truncated, _ = view_env.step(action)
+        if terminated or truncated:
+            obs, _ = view_env.reset()
+
+    view_env.close()
     return model
 
 

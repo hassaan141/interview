@@ -60,6 +60,8 @@ def exercise_4():
 
     # TODO: Print mean action per joint — which joints are most active?
     # HINT: np.mean(np.abs(actions_log), axis=0)
+    print("\n  Mean absolute action per joint:")
+    print(np.mean(np.abs(actions_log), axis=0))
     # This tells you which joints the agent relies on most
     # TODO
 
@@ -86,18 +88,18 @@ def exercise_4():
     # A: TODO
     #
     # BONUS: Uncomment to plot the joint torques over time:
-    # import matplotlib.pyplot as plt
-    # fig, axes = plt.subplots(2, 3, figsize=(14, 6), sharex=True)
-    # for i, (ax, name) in enumerate(zip(axes.flat, joint_names)):
-    #     ax.plot(actions_log[:, i], linewidth=0.8)
-    #     ax.set_title(name)
-    #     ax.set_ylim(-1.1, 1.1)
-    #     ax.axhline(0, color="gray", linewidth=0.5)
-    # axes[1, 1].set_xlabel("Timestep")
-    # fig.suptitle("Joint Torques During Walking")
-    # plt.tight_layout()
-    # plt.savefig("joint_torques.png", dpi=150)
-    # plt.show()
+    import matplotlib.pyplot as plt
+    fig, axes = plt.subplots(2, 3, figsize=(14, 6), sharex=True)
+    for i, (ax, name) in enumerate(zip(axes.flat, joint_names)):
+        ax.plot(actions_log[:, i], linewidth=0.8)
+        ax.set_title(name)
+        ax.set_ylim(-1.1, 1.1)
+        ax.axhline(0, color="gray", linewidth=0.5)
+    axes[1, 1].set_xlabel("Timestep")
+    fig.suptitle("Joint Torques During Walking")
+    plt.tight_layout()
+    plt.savefig("joint_torques.png", dpi=150)
+    plt.show()
 
     eval_env.close()
 

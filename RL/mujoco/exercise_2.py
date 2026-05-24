@@ -12,6 +12,7 @@ Install first:
     pip install stable-baselines3[extra] gymnasium[mujoco]
 """
 
+import gymnasium as gym
 from stable_baselines3 import PPO
 from stable_baselines3.common.env_util import make_vec_env
 from stable_baselines3.common.evaluation import evaluate_policy
@@ -24,24 +25,30 @@ def exercise_2():
 
     # 2a. Create vectorized environments
     # HINT: make_vec_env("HalfCheetah-v5", n_envs=4, seed=42)
-    env = None  # TODO
+    env = make_vec_env("HalfCheetah-v5", n_envs=4, seed=42)  # TODO
+    view_env = gym.make("HalfCheetah-v5", render_mode="human")
 
     # 2b. Create PPO model with default settings
     # HINT: PPO("MlpPolicy", env, verbose=1, seed=42)
-    model = None  # TODO
+    model = PPO("MlpPolicy", env, verbose=1, seed=42)
 
     # 2c. Train for 100K steps (quick test — real training needs ~1M)
-    # HINT: model.learn(total_timesteps=100_000)
-    # TODO
+    model.learn(total_timesteps=100_000)
+
+    obs, _ = view_env.reset()
+    for _ in range(1000):
+        action, _ = model.predict(obs)
+        obs, reward, terminated, truncated, _ = view_env.step(action)
+        if terminated or truncated:
+            obs, _ = view_env.reset()
 
     # 2d. Evaluate
-    # HINT: evaluate_policy(model, model.get_env(), n_eval_episodes=10)
-    # mean_reward, std_reward = TODO
-    # print(f"Default PPO after 100K steps: {mean_reward:.1f} +/- {std_reward:.1f}")
+    mean_reward, std_reward = evaluate_policy(model, model.get_env(), n_eval_episodes=10)
+    print(f"Default PPO after 100K steps: {mean_reward:.1f} +/- {std_reward:.1f}")
 
     # Question: Is 100K enough? How does this compare to random?
-    # A: TODO
-
+    # A:Better than random, but still very bad. The cheetah can't walk well yet.
+    
     return model  # Keep for Exercise 4
 
 
