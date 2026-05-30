@@ -1,0 +1,146 @@
+<!--
+  simple_biped.xml  —  A minimal custom bipedal robot for MuJoCo.
+
+  This is what gym.make("Walker2d-v5") loads behind the scenes, except that
+  file lives buried inside the gymnasium package. Here you own every number.
+
+  BODY TREE:
+    torso  (the main trunk — has the 3 "free" joints that let it move)
+    ├── right_thigh  →  right_shin  →  right_foot
+    └── left_thigh   →  left_shin   →  left_foot
+
+  JOINTS:
+    rootx  — slide along X  (forward motion, NOT actuated)
+    rootz  — slide along Z  (height,         NOT actuated)
+    rooty  — hinge around Y (torso tilt,      NOT actuated)
+    hip × 2   — hinge, swings leg forward/backward
+    knee × 2  — hinge, bends knee (one direction only)
+    ankle × 2 — hinge, points/flexes foot
+
+  ACTION SPACE:  6 values in [-1, 1], one per motor below.
+  OBS SPACE:     built in runner_env.py from qpos + qvel.
+
+  UNITS: lengths in metres, angles below are in degrees (compiler converts).
+-->
+
+<mujoco model="simple_biped">
+
+  <!-- angle="degree" lets us write joint ranges in degrees.              -->
+  <!-- MuJoCo stores and reports everything in radians at runtime.        -->
+  <!-- autolimits means we don't need to write limited="true" everywhere. -->
+  <compiler angle="degree" autolimits="true"/>
+
+  <!-- timestep: how long each physics sub-step is (0.002 s = 500 Hz).   -->
+  <!-- frame_skip in Python will call this 4 times per agent step → 8 ms  -->
+  <option timestep="0.002" integrator="RK4"/>
+
+  <!-- Shared defaults so we don't repeat them on every joint/geom. -->
+  <default>
+    <joint damping="0.1" armature="0.01"/>
+    <!-- friction: [slide, spin, roll]. Higher slide = more grip. -->
+    <geom friction="1.5 0.1 0.1" rgba="0.55 0.65 0.75 1" contype="1" conaffinity="1"/>
+    <motor ctrlrange="-1 1" ctrllimited="true"/>
+  </default>
+
+  <worldbody>
+    <light pos="0 0 4" dir="0 0 -1" diffuse="1 1 1" specular="0.1 0.1 0.1"/>
+    <!-- The floor. The robot walks on this. -->
+    <geom name="floor" type="plane" size="20 20 0.1" rgba="0.75 0.8 0.75 1"
+          contype="1" conaffinity="1"/>
+
+    <!--
+      TORSO  (starts at z=1.25 so legs have room to fall to the ground)
+      The robot drops ~0.35 m at episode start — MuJoCo handles this fine.
+    -->
+    <body name="torso" pos="0 0 1.25">
+
+      <!--
+        These 3 joints give the torso its degrees of freedom.
+        armature/damping/stiffness = 0 so they don't add artificial resistance.
+        They are NOT in the actuator list below — the agent can't directly
+        control them, it can only influence them by pushing off the ground.
+      -->
+      <joint name="rootx" type="slide" axis="1 0 0"
+             armature="0" damping="0" stiffness="0"/>
+      <joint name="rootz" type="slide" axis="0 0 1"
+             armature="0" damping="0" stiffness="0"/>
+      <joint name="rooty" type="hinge" axis="0 1 0"
+             armature="0" damping="0" stiffness="0"/>
+
+      <!-- Torso capsule: 40 cm tall, 5 cm radius -->
+      <geom name="torso_geom" type="capsule" fromto="0 0 -0.1 0 0 0.3" size="0.05"/>
+
+      <!-- ── RIGHT LEG ──────────────────────────────────────────────── -->
+      <!--
+        Each leg body is positioned at the BOTTOM of the parent geom.
+        pos="0 0 -0.1" means it attaches 10 cm below the torso centre.
+      -->
+      <body name="right_thigh" pos="0 0 -0.1">
+        <!--
+          Hip joint: swings the leg forward (positive) and backward (negative).
+          Range -30 to 100 degrees allows a large forward swing for running.
+        -->
+        <joint name="right_hip" type="hinge" axis="0 1 0" range="-30 100" damping="0.5"/>
+        <!-- Thigh: 40 cm long capsule pointing straight down -->
+        <geom name="right_thigh_geom" type="capsule" fromto="0 0 0 0 0 -0.4" size="0.04"/>
+
+        <body name="right_shin" pos="0 0 -0.4">
+          <!--
+            Knee joint: only bends one way (range -80 to 0).
+            Knees can't hyperextend — this matches real anatomy.
+          -->
+          <joint name="right_knee" type="hinge" axis="0 1 0" range="-80 0" damping="0.3"/>
+          <geom name="right_shin_geom" type="capsule" fromto="0 0 0 0 0 -0.4" size="0.03"/>
+
+          <body name="right_foot" pos="0 0 -0.4">
+            <!-- Ankle: plantarflexion and dorsiflexion -->
+            <joint name="right_ankle" type="hinge" axis="0 1 0" range="-45 45" damping="0.2"/>
+            <!--
+              Foot: a HORIZONTAL capsule so there's a flat-ish surface for contact.
+              fromto goes a bit forward (0.15) and a bit back (-0.1) of the ankle.
+            -->
+            <geom name="right_foot_geom" type="capsule" fromto="-0.1 0 0 0.15 0 0"
+                  size="0.03" rgba="0.3 0.3 0.3 1"/>
+          </body>
+        </body>
+      </body>
+
+      <!-- ── LEFT LEG (mirror of right) ───────────────────────────── -->
+      <body name="left_thigh" pos="0 0 -0.1">
+        <joint name="left_hip" type="hinge" axis="0 1 0" range="-30 100" damping="0.5"/>
+        <geom name="left_thigh_geom" type="capsule" fromto="0 0 0 0 0 -0.4" size="0.04"/>
+
+        <body name="left_shin" pos="0 0 -0.4">
+          <joint name="left_knee" type="hinge" axis="0 1 0" range="-80 0" damping="0.3"/>
+          <geom name="left_shin_geom" type="capsule" fromto="0 0 0 0 0 -0.4" size="0.03"/>
+
+          <body name="left_foot" pos="0 0 -0.4">
+            <joint name="left_ankle" type="hinge" axis="0 1 0" range="-45 45" damping="0.2"/>
+            <geom name="left_foot_geom" type="capsule" fromto="-0.1 0 0 0.15 0 0"
+                  size="0.03" rgba="0.3 0.3 0.3 1"/>
+          </body>
+        </body>
+      </body>
+
+    </body>
+  </worldbody>
+
+  <!--
+    ACTUATORS: one motor per joint.
+    gear = how many Newton-metres of torque per unit of action.
+    Hips get more torque (100) because they move the whole leg.
+    Ankles get less (60) because they only need to push off.
+
+    The agent outputs 6 numbers in [-1, 1].
+    MuJoCo maps action[0] → right_hip torque = action[0] * 100 Nm, etc.
+  -->
+  <actuator>
+    <motor name="right_hip_motor"   joint="right_hip"   gear="100"/>
+    <motor name="right_knee_motor"  joint="right_knee"  gear="80"/>
+    <motor name="right_ankle_motor" joint="right_ankle" gear="60"/>
+    <motor name="left_hip_motor"    joint="left_hip"    gear="100"/>
+    <motor name="left_knee_motor"   joint="left_knee"   gear="80"/>
+    <motor name="left_ankle_motor"  joint="left_ankle"  gear="60"/>
+  </actuator>
+
+</mujoco>
