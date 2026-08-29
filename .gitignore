@@ -8,3 +8,13 @@ env/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Operating-system metadata
+.DS_Store
+**/.DS_Store
+
+# Generated training outputs
+RL/mujoco/artifacts/
+RL/checkpoints/
+RL/Locomotion/runs/
+*.tfevents.*

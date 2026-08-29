@@ -12,9 +12,7 @@ Install first:
     pip install stable-baselines3[extra] gymnasium[mujoco]
 """
 
-from xml.parsers.expat import model
-
-from xml.parsers.expat import model
+from pathlib import Path
 
 import gymnasium as gym
 import numpy as np
@@ -23,6 +21,9 @@ from stable_baselines3 import PPO
 from stable_baselines3.common.env_util import make_vec_env
 from stable_baselines3.common.evaluation import evaluate_policy
 from stable_baselines3.common.callbacks import BaseCallback
+
+
+ARTIFACT_DIR = Path(__file__).resolve().parent / "artifacts" / "halfcheetah"
 
 
 class RewardTracker(BaseCallback):
@@ -45,6 +46,7 @@ def exercise_3():
     print("EXERCISE 3: Tuned hyperparameters")
     print("=" * 60)
 
+    ARTIFACT_DIR.mkdir(parents=True, exist_ok=True)
     env = make_vec_env("HalfCheetah-v5", n_envs=4, seed=42)
 
     # 3a. Create PPO with MuJoCo-tuned settings
@@ -126,10 +128,10 @@ def exercise_3():
     ax.set_title("PPO on HalfCheetah-v5 (Tuned)")
     ax.grid(True, alpha=0.3)
     plt.tight_layout()
-    plt.savefig("halfcheetah_learning_curve.png", dpi=150)
+    plt.savefig(ARTIFACT_DIR / "halfcheetah_learning_curve.png", dpi=150)
     plt.close()
 
-    model.save("halfcheetah_ppo_tuned")
+    model.save(ARTIFACT_DIR / "halfcheetah_ppo_tuned")
 
     # EXPERIMENT: Try changing ONE thing at a time and retrain:
     # - What happens with n_steps=128 (CartPole default)?

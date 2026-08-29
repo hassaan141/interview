@@ -8,16 +8,21 @@ Tasks:
   4c. Look at the Gaussian distribution parameters
   4d. Answer: Did the agent learn a rhythmic gait?
 
-Requires: Run exercise_3.py first to generate halfcheetah_ppo_tuned.zip
+Requires: Run exercise_3.py first to generate the model under artifacts/halfcheetah.
 
 Install first:
     pip install stable-baselines3[extra] gymnasium[mujoco]
 """
 
+from pathlib import Path
+
 import gymnasium as gym
 import numpy as np
 import torch
 from stable_baselines3 import PPO
+
+
+ARTIFACT_DIR = Path(__file__).resolve().parent / "artifacts" / "halfcheetah"
 
 
 def exercise_4():
@@ -26,9 +31,9 @@ def exercise_4():
     print("=" * 60)
 
     # 4a. Load the model (or use the one from Exercise 3)
-    # HINT: PPO.load("halfcheetah_ppo_tuned")
+    # HINT: PPO.load(ARTIFACT_DIR / "halfcheetah_ppo_tuned")
     try:
-        model = PPO.load("halfcheetah_ppo_tuned")
+        model = PPO.load(ARTIFACT_DIR / "halfcheetah_ppo_tuned")
         print("Loaded saved model")
     except FileNotFoundError:
         print("No saved model found. Run Exercise 3 first!")
@@ -98,7 +103,8 @@ def exercise_4():
     axes[1, 1].set_xlabel("Timestep")
     fig.suptitle("Joint Torques During Walking")
     plt.tight_layout()
-    plt.savefig("joint_torques.png", dpi=150)
+    ARTIFACT_DIR.mkdir(parents=True, exist_ok=True)
+    plt.savefig(ARTIFACT_DIR / "joint_torques.png", dpi=150)
     plt.show()
 
     eval_env.close()
