@@ -5,8 +5,12 @@ folder instead of browsing the repository root.
 
 ## Study areas
 
-- [`RobotMath/ModernRobotics`](RobotMath/ModernRobotics/README.md) — current focus:
-  robotics math and the *Modern Robotics* course.
+- [`Tesla`](Tesla/README.md) — **current focus**: the Tesla C++ interview (Autonomy
+  Systems Foundations internship). A 4-week plan, the *Modern C++ Programming* lecture
+  series broken into 16 sections with runnable examples and quizzes, 105 LeetCode
+  solutions in modern C++, and job-specific trivia.
+- [`RobotMath/ModernRobotics`](RobotMath/ModernRobotics/README.md) — robotics math and
+  the *Modern Robotics* course.
 - `RobotMath/RobotControl` — robot-control coding questions and practice.
 - `leetcode` — data structures and algorithms.
 - `RL` — reinforcement learning, MuJoCo, locomotion, and RL for LLMs.
@@ -27,6 +31,13 @@ folder instead of browsing the repository root.
 
 ## Current next step
 
-Open the [Modern Robotics study guide](RobotMath/ModernRobotics/README.md), then
-work through Chapter 2 in order. Chapter 2 builds the vocabulary for robot
-configuration; Chapter 3 is where rotation matrices and rigid-body math begin.
+Open the [Tesla interview plan](Tesla/README.md) and start with
+`Tesla/cpp-course/03-memory-pointers-references-and-const/` — it is the highest-yield
+folder for the technical round. Everything under `Tesla/` compiles and runs:
+
+```bash
+bash Tesla/build_all.sh      # builds and runs every example and solution
+```
+
+After the interview, the previous focus was the
+[Modern Robotics study guide](RobotMath/ModernRobotics/README.md), Chapter 2 onward.
