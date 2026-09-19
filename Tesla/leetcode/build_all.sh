@@ -3,7 +3,7 @@
 set -u
 cd "$(dirname "$0")"
 CXX=${CXX:-g++}
-FLAGS="-std=c++20 -Wall -Wextra -g -fsanitize=address,undefined"
+FLAGS="-std=c++20 -Wall -Wextra -g -pthread -fsanitize=address,undefined"
 pass=0; fail=0; failed=()
 
 for f in */[0-9]*.cpp; do
